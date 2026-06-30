@@ -1,5 +1,9 @@
-import { auth } from "@/auth";
+import NextAuth from "next-auth";
+import { authConfig } from "@/auth.config";
 import { NextResponse } from "next/server";
+
+// Use the edge-safe config (no Prisma, no native addons).
+const { auth } = NextAuth(authConfig);
 
 // Public routes that never require a session.
 const PUBLIC_ROUTES = ["/login", "/register", "/unauthorized"];
