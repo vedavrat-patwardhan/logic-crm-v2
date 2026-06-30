@@ -1,0 +1,4582 @@
+[
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14e1"
+    },
+    "customerName": "Ref. Prashant Sonawane",
+    "companyName": "Ashoka Buildcon",
+    "mobileNo": "9130010968"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14e2"
+    },
+    "customerName": "YOGESH MHASKAR",
+    "companyName": "",
+    "mobileNo": "9823948909"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14e3"
+    },
+    "customerName": "ADITYA DHOKARE",
+    "companyName": "",
+    "mobileNo": "7387019047"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14e4"
+    },
+    "customerName": "SWAPNIL KULKARNI`",
+    "companyName": "",
+    "mobileNo": "9130090851"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14e5"
+    },
+    "customerName": "ANANT LAKHE",
+    "companyName": "",
+    "mobileNo": "9890141043"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14e6"
+    },
+    "customerName": "RUTA PANDIT",
+    "companyName": "",
+    "mobileNo": "9860014853"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14e7"
+    },
+    "customerName": "DHANANJAY ATHANI",
+    "companyName": "",
+    "mobileNo": "9284199572"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14e8"
+    },
+    "customerName": "NARENDRA JOSHI",
+    "companyName": "RILIABLE PRINT HOUSE ",
+    "mobileNo": "9423964345"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14e9"
+    },
+    "customerName": "Klasspack Plant II",
+    "companyName": "Klasspack Plant II",
+    "mobileNo": "9130073888"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14ea"
+    },
+    "customerName": "SONALI MAHALE",
+    "companyName": "KLASSPACK",
+    "mobileNo": "9604847628"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14eb"
+    },
+    "customerName": "DINESH HIRE",
+    "companyName": "",
+    "mobileNo": "9422945199"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14ec"
+    },
+    "customerName": "SUBHASH DESHMUKH",
+    "companyName": "PRASAD PART FINISHERS",
+    "mobileNo": "8237007186"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14ed"
+    },
+    "customerName": "SHARVAREE JOSHI",
+    "companyName": "",
+    "mobileNo": "9284163186"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14ee"
+    },
+    "customerName": "NILESH KSHIRSAGAR",
+    "companyName": "",
+    "mobileNo": "9823368099"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14ef"
+    },
+    "customerName": "SHRIKANT DESAI",
+    "companyName": "MERSEL FOODS",
+    "mobileNo": "7447755327"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14f0"
+    },
+    "customerName": "ARCHANA GANDE",
+    "companyName": "TEKNO",
+    "mobileNo": "9371897887"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14f1"
+    },
+    "customerName": "SHUBHANKAR DABHAK",
+    "companyName": "",
+    "mobileNo": "9970068606"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14f2"
+    },
+    "customerName": "N.B.KULKARNI",
+    "companyName": "",
+    "mobileNo": "\"9422284768 9422284768\""
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14f3"
+    },
+    "customerName": "NEELAM GUPTA",
+    "companyName": "",
+    "mobileNo": "9819978771"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14f4"
+    },
+    "customerName": "OM JADHAV",
+    "companyName": "",
+    "mobileNo": "9422258362"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14f5"
+    },
+    "customerName": "POOJA SHARMA",
+    "companyName": "",
+    "mobileNo": "8999258762"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14f6"
+    },
+    "customerName": "MUKUL CHATURVEDI",
+    "companyName": "",
+    "mobileNo": "9623133993"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14f7"
+    },
+    "customerName": "MADHURA REDGAONKAR",
+    "companyName": "",
+    "mobileNo": "9834730350"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14f8"
+    },
+    "customerName": "YOGESH TILKE ",
+    "companyName": "SAPHALYA ",
+    "mobileNo": "9422254514"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14f9"
+    },
+    "customerName": "RAJASHREE DIXIT",
+    "companyName": "",
+    "mobileNo": "9881136212"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14fa"
+    },
+    "customerName": "SHABBIR SHAIKH",
+    "companyName": "RPM ENGG",
+    "mobileNo": "9403511791"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14fb"
+    },
+    "customerName": "ANIL SAHAJE",
+    "companyName": "",
+    "mobileNo": "8983074305"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14fc"
+    },
+    "customerName": "PRATHMESH RAHALKAR",
+    "companyName": "",
+    "mobileNo": "9579177480"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14fd"
+    },
+    "customerName": "NARENDRA DHANDE",
+    "companyName": "",
+    "mobileNo": "9420691486"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14fe"
+    },
+    "customerName": "SONAL KHADILKAR",
+    "companyName": "",
+    "mobileNo": "9730359160"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c14ff"
+    },
+    "customerName": "MANOJ JANDE",
+    "companyName": "",
+    "mobileNo": "9822679200"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1500"
+    },
+    "customerName": "VIPUL PATWA",
+    "companyName": "",
+    "mobileNo": "9822557032"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1501"
+    },
+    "customerName": "PRAVIN BANKAR",
+    "companyName": "FRESHTOP",
+    "mobileNo": "7709477500"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1502"
+    },
+    "customerName": "SALONI JAHAGIRDAR",
+    "companyName": "JAHAGIRDAR BAKERS",
+    "mobileNo": "8805014321"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1503"
+    },
+    "customerName": "TOSHAL KULKARN",
+    "companyName": "",
+    "mobileNo": "8805410204"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1504"
+    },
+    "customerName": "DIXIT",
+    "companyName": "SVI CARBON",
+    "mobileNo": "8888820300"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1505"
+    },
+    "customerName": "PATIL",
+    "companyName": "POWERINST",
+    "mobileNo": "9423708797"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1506"
+    },
+    "customerName": "KAUSTUBH KADI",
+    "companyName": "",
+    "mobileNo": "8087377077"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1507"
+    },
+    "customerName": "ROHAN GHARE",
+    "companyName": "CATALYST INDIA",
+    "mobileNo": "9518387385"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1508"
+    },
+    "customerName": "JITENDRA MATE",
+    "companyName": "GOGATE ELECTRO",
+    "mobileNo": "7774009691"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1509"
+    },
+    "customerName": "JAYANT JOSHI",
+    "companyName": "",
+    "mobileNo": "9860765314"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c150a"
+    },
+    "customerName": "DR.VEREKAR",
+    "companyName": "",
+    "mobileNo": "9822281142"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c150b"
+    },
+    "customerName": "Pravin Nikam",
+    "companyName": "FRESHTOP",
+    "mobileNo": "9970067873"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c150c"
+    },
+    "customerName": "Swapnil Wakchaure ",
+    "companyName": "United Box",
+    "mobileNo": "9326620567"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c150d"
+    },
+    "customerName": "SUGHOSH BHAGURKAR ",
+    "companyName": "",
+    "mobileNo": "9423964880"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c150e"
+    },
+    "customerName": "SAUMEDH DESHPANDE",
+    "companyName": "",
+    "mobileNo": "8237839305"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c150f"
+    },
+    "customerName": "Abhay Sarvadnya",
+    "companyName": "Transcon India",
+    "mobileNo": "9960893555"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1510"
+    },
+    "customerName": "Yogesh Gangurde",
+    "companyName": "K.B.ENTERPRISES",
+    "mobileNo": "9011908058"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1511"
+    },
+    "customerName": "Mihir Mujumdar",
+    "companyName": "Mufront",
+    "mobileNo": "9820723960"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1512"
+    },
+    "customerName": "MANDAR CHANDRATRE",
+    "companyName": "",
+    "mobileNo": "9860618550"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1513"
+    },
+    "customerName": "PAWAN DANI ",
+    "companyName": "",
+    "mobileNo": "9011848169"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1514"
+    },
+    "customerName": "SONALI MAHALE ",
+    "companyName": "KLASSPACK",
+    "mobileNo": "9604847628"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1515"
+    },
+    "customerName": "SANTOSH GHATOL",
+    "companyName": "",
+    "mobileNo": "9604067375"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1516"
+    },
+    "customerName": "PRASHANT SONAVANE ",
+    "companyName": "ASHOKA",
+    "mobileNo": "9130010968"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1517"
+    },
+    "customerName": "MANSI ANDHALE",
+    "companyName": "",
+    "mobileNo": "8380099786"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1518"
+    },
+    "customerName": "PRASAD SHETTY",
+    "companyName": "SAMARTH ENGG",
+    "mobileNo": "9021087839"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1519"
+    },
+    "customerName": "MANGESH CHAVAN",
+    "companyName": "C.A GUJRATHI",
+    "mobileNo": "9420763625"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c151a"
+    },
+    "customerName": "AMIT SHINDE",
+    "companyName": "KONARK ENGG",
+    "mobileNo": "7720828912"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c151b"
+    },
+    "customerName": "AJAY BHOURASKAR ",
+    "companyName": "ajay services",
+    "mobileNo": "9422258984"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c151c"
+    },
+    "customerName": "Ashish bhanose",
+    "companyName": "GOGATE ELECTRO",
+    "mobileNo": "9850647722"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c151d"
+    },
+    "customerName": "PRATHMESH JOSHI",
+    "companyName": "",
+    "mobileNo": "9130090852"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c151e"
+    },
+    "customerName": "KASTURI GOSAVIQ",
+    "companyName": "SVI CARBON",
+    "mobileNo": "9881876190"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c151f"
+    },
+    "customerName": "ROSHAN DHULE ",
+    "companyName": "SPARKHY INDU",
+    "mobileNo": "9822400043"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1520"
+    },
+    "customerName": "JITENDRA SHIRKE ",
+    "companyName": "SHIRKE ELECTRO",
+    "mobileNo": "9673110990"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1521"
+    },
+    "customerName": "DHANANJAY KARAD ",
+    "companyName": "",
+    "mobileNo": "8669464740"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1522"
+    },
+    "customerName": "PRANAV POOJARI",
+    "companyName": "",
+    "mobileNo": "9823381008"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1523"
+    },
+    "customerName": "MANISH KOTHARI",
+    "companyName": "MAHARASHTA PIPE",
+    "mobileNo": "MANISH KOTHARI"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1524"
+    },
+    "customerName": "PURUSHOTTAM JADHAV ",
+    "companyName": "",
+    "mobileNo": "8087368712"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1525"
+    },
+    "customerName": "SMITA PATIL",
+    "companyName": "PANCHAL ENGG",
+    "mobileNo": "7709306661"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1526"
+    },
+    "customerName": "SANJIV NENE",
+    "companyName": "NENE TRADING",
+    "mobileNo": "9422255259"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1527"
+    },
+    "customerName": "SWAPNIL RANE ",
+    "companyName": "",
+    "mobileNo": "9860692485"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1528"
+    },
+    "customerName": "DEEPAK PATIL",
+    "companyName": "",
+    "mobileNo": "9225222151"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1529"
+    },
+    "customerName": "VIDYASAGAR",
+    "companyName": "REVE PHARMA",
+    "mobileNo": "9920064260"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c152a"
+    },
+    "customerName": "PALAK LOHADE ",
+    "companyName": "",
+    "mobileNo": "9158545658"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c152b"
+    },
+    "customerName": "SHANTANU NAIK",
+    "companyName": "BHOR CHEMICALS",
+    "mobileNo": "9421508869"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c152c"
+    },
+    "customerName": "SUSHMITA SINGH ",
+    "companyName": "",
+    "mobileNo": "9930141606"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c152d"
+    },
+    "customerName": "KRISHNA KARAD`",
+    "companyName": "",
+    "mobileNo": "9028631871"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c152e"
+    },
+    "customerName": "APURVA KULKARNI ",
+    "companyName": "KLASSPACK",
+    "mobileNo": "9881196008"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c152f"
+    },
+    "customerName": "RAHUL BHUTADA",
+    "companyName": "THE CATALYST INDIA",
+    "mobileNo": "9325959557"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1530"
+    },
+    "customerName": "SWAPNIL KULKARNI",
+    "companyName": "",
+    "mobileNo": "9130090851"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1531"
+    },
+    "customerName": "SARTHAK ITALIYA",
+    "companyName": "TRIMBAK RUBBER",
+    "mobileNo": "9737151295"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1532"
+    },
+    "customerName": "VAISHALI GUDI",
+    "companyName": "MOHAN ENGGNEER",
+    "mobileNo": "9921007455"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1533"
+    },
+    "customerName": "MEET NATWANI",
+    "companyName": "",
+    "mobileNo": "9004039160"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1534"
+    },
+    "customerName": "DR.ARPIT SHAHA",
+    "companyName": "",
+    "mobileNo": "9423980199"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1535"
+    },
+    "customerName": "PRATHMESH GANDHI",
+    "companyName": "QUADRANT TECHNOLOGIES",
+    "mobileNo": "7620177168"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1536"
+    },
+    "customerName": "BHAVESH CHAMPANAIRI",
+    "companyName": "KLASSPACK",
+    "mobileNo": "9510227506"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1537"
+    },
+    "customerName": "VIKAS PUROHIT",
+    "companyName": "",
+    "mobileNo": "9823257419"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1538"
+    },
+    "customerName": "SAKSHI BAVISKAR",
+    "companyName": "",
+    "mobileNo": "9822847839"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1539"
+    },
+    "customerName": "KIRAN CHOUGHULE",
+    "companyName": "",
+    "mobileNo": "9370874419"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c153a"
+    },
+    "customerName": "PRANAV GADGIL",
+    "companyName": "PRAHA VENTURE",
+    "mobileNo": "9673966305"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c153b"
+    },
+    "customerName": "NANDA DESHPANDE ",
+    "companyName": "GILLBIRT AND MAXWELL",
+    "mobileNo": "9881148735"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c153c"
+    },
+    "customerName": "KING CLUB ( GK )",
+    "companyName": "",
+    "mobileNo": "8888818524"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c153d"
+    },
+    "customerName": "MANGESH SABLE",
+    "companyName": "MARCEL FOODS",
+    "mobileNo": "9579126823"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c153e"
+    },
+    "customerName": "OMKAR DAWARE",
+    "companyName": "ICON ENTERPRISES",
+    "mobileNo": "9511009090"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c153f"
+    },
+    "customerName": "RAJENDRA KAMBLE",
+    "companyName": "",
+    "mobileNo": "9422265474"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1540"
+    },
+    "customerName": "NINAD GHULE ",
+    "companyName": "MICRODOT",
+    "mobileNo": "966572470"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1541"
+    },
+    "customerName": "SHUBHANGI SHINDE",
+    "companyName": "",
+    "mobileNo": "9011644533"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1542"
+    },
+    "customerName": "SINDHU KARUR",
+    "companyName": "ENVIRON PLANNERS",
+    "mobileNo": "7892643579"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1543"
+    },
+    "customerName": "PRASHANT DHATRAK ",
+    "companyName": "",
+    "mobileNo": "9922991122"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1544"
+    },
+    "customerName": "SHIRISH GADGIL",
+    "companyName": "EXCEL ENGGNEERS",
+    "mobileNo": "8208613238"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1545"
+    },
+    "customerName": "PRADIP MUNDLE",
+    "companyName": "PROCESS UNIT",
+    "mobileNo": "9820060751"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1546"
+    },
+    "customerName": "SNEHA PATIL",
+    "companyName": "ENVIRON PLANNERS",
+    "mobileNo": "8380089699"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1547"
+    },
+    "customerName": "SAEE PHADKE",
+    "companyName": "MODERN SCIENCE",
+    "mobileNo": "9822065201"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1548"
+    },
+    "customerName": "RUTUJA JOSHI",
+    "companyName": "",
+    "mobileNo": "9096792100"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1549"
+    },
+    "customerName": "ANANT GOSAVI",
+    "companyName": "SVI CARBON",
+    "mobileNo": "7709777526"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c154a"
+    },
+    "customerName": "DEVYANI TILAK",
+    "companyName": "",
+    "mobileNo": "9664041096"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c154b"
+    },
+    "customerName": "TAPAN AMBIKAR ",
+    "companyName": "",
+    "mobileNo": "9422245032"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c154c"
+    },
+    "customerName": "VILAS AHIRE",
+    "companyName": "SEEMA ENTERPRISES",
+    "mobileNo": "8625868285"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c154d"
+    },
+    "customerName": "NIDHI JAGTAP",
+    "companyName": "",
+    "mobileNo": "8888845680"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c154e"
+    },
+    "customerName": "MANOJ SHETTI",
+    "companyName": "JAI SPORT",
+    "mobileNo": "9975559138"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c154f"
+    },
+    "customerName": "SANJAY PANDE",
+    "companyName": "CERCUIT ARTS",
+    "mobileNo": "9822515910"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1550"
+    },
+    "customerName": "ABHIJIT HADAP",
+    "companyName": "NACHIKET & ASSOCITE",
+    "mobileNo": "9890022258"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1551"
+    },
+    "customerName": "VISHAL BHALERAO ",
+    "companyName": "",
+    "mobileNo": "9822033400"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1552"
+    },
+    "customerName": "MANOJ JOSHI",
+    "companyName": "JOTO",
+    "mobileNo": "9822033400"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1553"
+    },
+    "customerName": "PRERANA BHANDARI",
+    "companyName": "RENUKA INDUSTRIES",
+    "mobileNo": "9226168710"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1554"
+    },
+    "customerName": "RAHUL DESALE ",
+    "companyName": "",
+    "mobileNo": "9689876793"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1555"
+    },
+    "customerName": "KALYANI BHAVE",
+    "companyName": "",
+    "mobileNo": "9423177034"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1556"
+    },
+    "customerName": "NEEL BOTHRA",
+    "companyName": "",
+    "mobileNo": "7028791555"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1557"
+    },
+    "customerName": "SHREYASH DIXIT ",
+    "companyName": "K.B Enterprices",
+    "mobileNo": "9881136212"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1558"
+    },
+    "customerName": "JAYDEEP SHELAR",
+    "companyName": "K.B ENTERPRISES",
+    "mobileNo": "8446560590"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1559"
+    },
+    "customerName": "FOG CITY",
+    "companyName": "",
+    "mobileNo": "9822054443"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c155a"
+    },
+    "customerName": "PRASAD JAIN",
+    "companyName": "PREM CONSULTANT",
+    "mobileNo": "9422758727"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c155b"
+    },
+    "customerName": "VARSHA KARADKHADKAR ",
+    "companyName": "",
+    "mobileNo": "9860839343"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c155c"
+    },
+    "customerName": "AMOL HATKAR",
+    "companyName": "AMOL ENTERPRESES",
+    "mobileNo": "9850840527"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c155d"
+    },
+    "customerName": "GAURI PATWARDHAN",
+    "companyName": "",
+    "mobileNo": "9822292643"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c155e"
+    },
+    "customerName": "HEMANT KALAMKAR",
+    "companyName": "MULTIQWADRANT",
+    "mobileNo": "9070903367"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c155f"
+    },
+    "customerName": "NEHA KUMAR",
+    "companyName": "",
+    "mobileNo": "9423969165"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1560"
+    },
+    "customerName": "ANAGHA KETKAR",
+    "companyName": "KETKAR BROTHERS",
+    "mobileNo": "9960426692"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1561"
+    },
+    "customerName": "MEGHANA DHOKE",
+    "companyName": "",
+    "mobileNo": "9011085899"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1562"
+    },
+    "customerName": "HEMANT BELE",
+    "companyName": "PALATE",
+    "mobileNo": "9822056017"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1563"
+    },
+    "customerName": "AMEY KETKAR",
+    "companyName": "KETKAR BROTHERS",
+    "mobileNo": "9822172813"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1564"
+    },
+    "customerName": "VAIBHAVI KHAIRNAR",
+    "companyName": "CATALYST INDIA",
+    "mobileNo": "7507416508"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1565"
+    },
+    "customerName": "SANDIP LONDHE",
+    "companyName": "",
+    "mobileNo": "9823118841"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1566"
+    },
+    "customerName": "ARUN LONDHE",
+    "companyName": "",
+    "mobileNo": "7741017820"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1567"
+    },
+    "customerName": "VAISHANVI DESAI",
+    "companyName": "",
+    "mobileNo": "8668997535"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1568"
+    },
+    "customerName": "ROHAN PARDESHI",
+    "companyName": "MATE ASSOCIATES ( NANDANVAN LOWNS )",
+    "mobileNo": "9923329177"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1569"
+    },
+    "customerName": "RAJGONDA PATIL",
+    "companyName": "POWERINST",
+    "mobileNo": "9423708797"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c156a"
+    },
+    "customerName": "MUGHDHA KULKARNI",
+    "companyName": "",
+    "mobileNo": "8698003141"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c156b"
+    },
+    "customerName": "JAGAN BACHHAV",
+    "companyName": "THERMO & PLASTIC",
+    "mobileNo": "7875155110"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c156c"
+    },
+    "customerName": "ARUN CHANDREN",
+    "companyName": "",
+    "mobileNo": "9421852859"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c156d"
+    },
+    "customerName": "KALPESH PATIL",
+    "companyName": "ASHOKA",
+    "mobileNo": "8308828346"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c156e"
+    },
+    "customerName": "MANJU JOSHI",
+    "companyName": "",
+    "mobileNo": "9892049770"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c156f"
+    },
+    "customerName": "GOSAVI MADAM",
+    "companyName": "SVI CAROBON",
+    "mobileNo": "7709777526"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1570"
+    },
+    "customerName": "PUNEET KULKARNI",
+    "companyName": "",
+    "mobileNo": "9960701001"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1571"
+    },
+    "customerName": "SACHIN KHAIRNAR",
+    "companyName": "SINNER",
+    "mobileNo": "9130034470"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1572"
+    },
+    "customerName": "NIKHIL DHAGE",
+    "companyName": "KONARK ENGG",
+    "mobileNo": "9588654605"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1573"
+    },
+    "customerName": "DNYANESHWAR BADBADE",
+    "companyName": "",
+    "mobileNo": "7378533473"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1574"
+    },
+    "customerName": "PARTH SHAHA ",
+    "companyName": "HOTEL ROYAL HERITAGE",
+    "mobileNo": "9975197310"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1575"
+    },
+    "customerName": "PRASHANT CHAFEKAR",
+    "companyName": "MANDA ENGG",
+    "mobileNo": "9823103161"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1576"
+    },
+    "customerName": "RAHUL BHAMHANKAR ",
+    "companyName": "SAI MEDICAL",
+    "mobileNo": "9922775975"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1577"
+    },
+    "customerName": "VIKRANT GHULE",
+    "companyName": "",
+    "mobileNo": "9423584181"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1578"
+    },
+    "customerName": "CHETAN PINGLE ",
+    "companyName": "REG ANIMATION ( KVK MALEGAON )",
+    "mobileNo": "9423523014"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1579"
+    },
+    "customerName": "MANDAR GOKARN",
+    "companyName": "SANJAY TOOLS ",
+    "mobileNo": "9822033400"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c157a"
+    },
+    "customerName": "JAYASHREEJADHAV",
+    "companyName": "",
+    "mobileNo": "8087368712"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c157b"
+    },
+    "customerName": "ARCHIT KULKARNI",
+    "companyName": "POWERINST",
+    "mobileNo": "9834092083"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c157c"
+    },
+    "customerName": "PANKAJ WAKADKAR ",
+    "companyName": "",
+    "mobileNo": "9420485147"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c157d"
+    },
+    "customerName": "PRIYA PANCHAL",
+    "companyName": "PANCHAL ENGG",
+    "mobileNo": "9850310952"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c157e"
+    },
+    "customerName": "SAMEER PATWA",
+    "companyName": "SAM CONSUTECH",
+    "mobileNo": "9423175381"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c157f"
+    },
+    "customerName": "ATUL GAIKWAD",
+    "companyName": "NIRMAL GRAM KENDRA",
+    "mobileNo": "9405062198"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1580"
+    },
+    "customerName": "ARVIND PANCHAL",
+    "companyName": "PANCHAL ENGG",
+    "mobileNo": "9371551591"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1581"
+    },
+    "customerName": "DEVESH DIXIT ",
+    "companyName": "MULTIQWADRANT",
+    "mobileNo": "9970903367"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1582"
+    },
+    "customerName": "DARSHAN TALEKOT ",
+    "companyName": "",
+    "mobileNo": "9822172813"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1583"
+    },
+    "customerName": "AMEY KETKAR ",
+    "companyName": "KETKAR BROTHERS",
+    "mobileNo": "9822172813"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1584"
+    },
+    "customerName": "ARCHANA GANDE ",
+    "companyName": "TEKNO",
+    "mobileNo": "9371897887"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1585"
+    },
+    "customerName": "NEHA ASOLE ",
+    "companyName": "",
+    "mobileNo": "9028212148"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1586"
+    },
+    "customerName": "ALBERT",
+    "companyName": "S.S TECHNOVISION",
+    "mobileNo": "7840935076"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1587"
+    },
+    "customerName": "DEEPALI KHAIRE ",
+    "companyName": "",
+    "mobileNo": "7798537683"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1588"
+    },
+    "customerName": "ANJALI KATARIYA HOME",
+    "companyName": "REVE PHARMA ",
+    "mobileNo": "9423137285"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1589"
+    },
+    "customerName": "BHUSHAN INGLE",
+    "companyName": "",
+    "mobileNo": "8805000675"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c158a"
+    },
+    "customerName": "AMIT SHINDE ",
+    "companyName": "KONARK ENGG",
+    "mobileNo": "7720828913"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c158b"
+    },
+    "customerName": "BHARAT TIDKE",
+    "companyName": "MERSEL FOODS",
+    "mobileNo": "9763045797"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c158c"
+    },
+    "customerName": "NEHA KUMAR ",
+    "companyName": "",
+    "mobileNo": "9423969165"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c158d"
+    },
+    "customerName": "VINAYAK HATWALNE ",
+    "companyName": "",
+    "mobileNo": "9822753253"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c158e"
+    },
+    "customerName": "PRAJAKTA JOSHI",
+    "companyName": "RELIBLE PRINT HOUSE",
+    "mobileNo": "9822033400"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c158f"
+    },
+    "customerName": "CHADDA SIR ",
+    "companyName": "ARYAN AEROSPACE",
+    "mobileNo": "9225113309"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1590"
+    },
+    "customerName": "PRICE AGRAWAL",
+    "companyName": "MAHADEVI LAGGAGE ",
+    "mobileNo": "9130118980"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1591"
+    },
+    "customerName": "YOGESH PAWAR",
+    "companyName": "MAHADEVI LAGGAGE",
+    "mobileNo": "9130118980"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1592"
+    },
+    "customerName": "PANKAJ DAGADE ",
+    "companyName": "",
+    "mobileNo": "9579466777"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1593"
+    },
+    "customerName": "SIDDHESH KHAIRNAR",
+    "companyName": "CHARUL PROJECTS",
+    "mobileNo": "7588446292"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1594"
+    },
+    "customerName": "UPENDRA PANDSE",
+    "companyName": "",
+    "mobileNo": "9420588987"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1595"
+    },
+    "customerName": "JAYESH APTE ",
+    "companyName": "",
+    "mobileNo": "9822540430"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1596"
+    },
+    "customerName": "GAURI ADHAO",
+    "companyName": "",
+    "mobileNo": "9422890751"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1597"
+    },
+    "customerName": "SUBODH GARGE",
+    "companyName": "SUBODH INDUSTRIES",
+    "mobileNo": "9850099575"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1598"
+    },
+    "customerName": "TEJASWINI UGLE",
+    "companyName": "",
+    "mobileNo": "7263982909"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c1599"
+    },
+    "customerName": "BHAGWAN MALI",
+    "companyName": "",
+    "mobileNo": "9860047730"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c159a"
+    },
+    "customerName": "TOSHAL KULKARNI",
+    "companyName": "",
+    "mobileNo": "8805410204"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c159b"
+    },
+    "customerName": "RUPALI DIXIT ",
+    "companyName": "SVI CARBON",
+    "mobileNo": "7709777526"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c159c"
+    },
+    "customerName": "MANGESH MALI",
+    "companyName": "RAMAYAN ENGGINEER",
+    "mobileNo": "8888861979"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c159d"
+    },
+    "customerName": "ASHISH BHANOSE",
+    "companyName": "GOGATE ELECTRO",
+    "mobileNo": "9850647722"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c159e"
+    },
+    "customerName": "TANAYA BHAVSAR",
+    "companyName": "",
+    "mobileNo": "9822363320"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c159f"
+    },
+    "customerName": "SAURABH KALASKAR",
+    "companyName": "",
+    "mobileNo": "7218862586"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c15a0"
+    },
+    "customerName": "SUPRIYA SULE",
+    "companyName": "ENTRACO BKS",
+    "mobileNo": "6698128"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c15a1"
+    },
+    "customerName": "POONAM VANJARI",
+    "companyName": "RENUKA R INDU",
+    "mobileNo": "7767812234"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c15a2"
+    },
+    "customerName": "YASHRAJ THAKARE",
+    "companyName": "",
+    "mobileNo": "7768969879"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c15a3"
+    },
+    "customerName": "SANGITA MADAM",
+    "companyName": "BLUE VOYAGE (",
+    "mobileNo": "9637695999"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c15a4"
+    },
+    "customerName": "PRIYA PANGAM",
+    "companyName": "CATALYST INDIA",
+    "mobileNo": "9561290115"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c15a5"
+    },
+    "customerName": "SWARAJ NANDEDKAR",
+    "companyName": "",
+    "mobileNo": "9049428706"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c15a6"
+    },
+    "customerName": "ROHIT SATHE",
+    "companyName": "SINNER ",
+    "mobileNo": "8956641597"
+  },
+  {
+    "_id": {
+      "$oid": "62e67945269dc3251c6c15a7"
+    },
+    "customerName": "RUPALI DIXIT",
+    "companyName": "SVI CARBON",
+    "mobileNo": "7709777526"
+  },
+  {
+    "_id": {
+      "$oid": "62e91b461e73ae87e3629f8d"
+    },
+    "customerName": "ANIL GANGWAL",
+    "companyName": "G.G ELECTRONICS",
+    "mobileNo": "9422252047",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62eb49e4d0675ed83d2bbbcd"
+    },
+    "customerName": "RAHUL DABIR ",
+    "companyName": "STUDIO BOX",
+    "mobileNo": "9822093153",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62f1f0f1249e98f994e2eb72"
+    },
+    "customerName": "SACHIN DESHMUKH ",
+    "companyName": "ATHARV MEDIA CONCEPT",
+    "mobileNo": "9325641012",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62f1f0f9249e98f994e2eb75"
+    },
+    "customerName": "SACHIN DESHMUKH ",
+    "companyName": "ATHARV MEDIA CONCEPT",
+    "mobileNo": "9325641012",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62f1f1cc249e98f994e2eb84"
+    },
+    "customerName": "RACHNA TAMBAT",
+    "companyName": "S.R.METRING",
+    "mobileNo": "9822656333",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62f4850a1d49521192842c22"
+    },
+    "customerName": "SNEHJIT ROY",
+    "companyName": "RPM ENGG",
+    "mobileNo": "9834084291",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62ff1225af85cd9500a218dc"
+    },
+    "customerName": "KALYANI BHAVE ",
+    "companyName": "PADMAVATI MESS",
+    "mobileNo": "9423177034",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62ff125caf85cd9500a218e3"
+    },
+    "customerName": "AKASH LAHANE",
+    "companyName": "E I GRAPHITE",
+    "mobileNo": "7774094711",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6303040e16cf4efe0a29f0c3"
+    },
+    "customerName": "NILESH SALGAONKAR ",
+    "companyName": "TEKNO",
+    "mobileNo": "9823389035",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6303047516cf4efe0a29f0ce"
+    },
+    "customerName": "SALONI JAHAGIRDAR",
+    "companyName": "JAHAGIRDAR BAKERS",
+    "mobileNo": "8805014321",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "630af6c17558ab40d2ab6b8e"
+    },
+    "customerName": "YASHWANT JADHAV",
+    "companyName": "SPARKHY",
+    "mobileNo": "8605357646",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6310a2556853e3a52832d4d7"
+    },
+    "customerName": "REVAN MOHAN",
+    "companyName": "VERTEX ENGG",
+    "mobileNo": "7276446422",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6310a26a6853e3a52832d4da"
+    },
+    "customerName": "REVAN MOHAN",
+    "companyName": "VERTEX ENGG",
+    "mobileNo": "7276446422",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "631ac45f1b9519f7d380693b"
+    },
+    "customerName": "VASANT CHAUDHARI",
+    "companyName": "SHALAKA SHAFT",
+    "mobileNo": "9881816854",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6320078a331d352b02c5030c"
+    },
+    "customerName": "MAHESH PORJE",
+    "companyName": "ASHOKA",
+    "mobileNo": "8975839835",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6322ea1465370024a77cf2c2"
+    },
+    "customerName": "SMITA SAUDAGAR",
+    "companyName": "teethcare ",
+    "mobileNo": "8975757163",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63343fa66d52fa88f5528063"
+    },
+    "customerName": "ABHAY PHADKE",
+    "companyName": "KONARK",
+    "mobileNo": "9588654605",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "633442b56d52fa88f5528086"
+    },
+    "customerName": "ABHIJIT HADAP",
+    "companyName": "NACHIKET ASSOCIATES",
+    "mobileNo": "9890022258",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "633443ea6d52fa88f55280a1"
+    },
+    "customerName": "SANJIV NARANG",
+    "companyName": "NARANG COLD",
+    "mobileNo": "9370273003",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "633ad46265eac0f07d208742"
+    },
+    "customerName": "DILIP ARORA ( SOFTY )",
+    "companyName": "+1 ( 614) 4060530",
+    "mobileNo": "9420563333",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6346b7f94cef3792ad39c3a1"
+    },
+    "customerName": "VISHAL MISHRA",
+    "companyName": "MERCEL FOODS ",
+    "mobileNo": "9579126823 MANGESH",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "634e82902efb1a528aab483d"
+    },
+    "customerName": "ARPAN KUMAR",
+    "companyName": "MAHALAXMI SALES",
+    "mobileNo": "9373914968",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "634e82db2efb1a528aab4844"
+    },
+    "customerName": "NITIN EKHANDE",
+    "companyName": "PT ENTERPRICES",
+    "mobileNo": "7507555818",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "636ce6a7322f8a32871c0297"
+    },
+    "customerName": "CHANDRAKANT BONDE",
+    "companyName": "KLASSPACK",
+    "mobileNo": "9423104225",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63777d487ae4562715accd13"
+    },
+    "customerName": "Sandip Lodha",
+    "companyName": "Swastik Refigerator",
+    "mobileNo": "9422279358",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63777d8c7ae4562715accd1a"
+    },
+    "customerName": "Paras Javiri",
+    "companyName": "Phatak & Joshi",
+    "mobileNo": "8888900099",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63777e187ae4562715accd29"
+    },
+    "customerName": "Hargindar Kaur",
+    "companyName": "Tekno",
+    "mobileNo": "9922418217",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63777e787ae4562715accd30"
+    },
+    "customerName": "MANISH KOTHARI",
+    "companyName": "MAHARASHTA PIPE",
+    "mobileNo": "9422247911",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "637f65a71b47a968dc332652"
+    },
+    "customerName": "DEVIKA PAVGI",
+    "companyName": "SADASHIV STEELS",
+    "mobileNo": "9822289687",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "637f65e71b47a968dc332659"
+    },
+    "customerName": "PRANAV GADGIL",
+    "companyName": "SAMYAK",
+    "mobileNo": "9823114555",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "637f667e1b47a968dc332668"
+    },
+    "customerName": "RUSHIKESH RAUT ",
+    "companyName": "FRESHTOP",
+    "mobileNo": "9730604597",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6382e79627dce2cf406a0773"
+    },
+    "customerName": "AR.HITESH GUJAR ",
+    "companyName": "ARCHIELECTO",
+    "mobileNo": "9987874790",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63a139f6f33bbc3d3fc10c2c"
+    },
+    "customerName": "PRASHANT GHATKAL",
+    "companyName": "G.M DESIGN",
+    "mobileNo": "9822198893",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63a13a73f33bbc3d3fc10c37"
+    },
+    "customerName": "SWAPNIL CHAUDHARI",
+    "companyName": "M.C TURING ",
+    "mobileNo": "9545640658",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63a13cadf33bbc3d3fc10c52"
+    },
+    "customerName": "REENA CHAURE ",
+    "companyName": "SHIVA SAI",
+    "mobileNo": "9921888451",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63a13d73f33bbc3d3fc10c61"
+    },
+    "customerName": "HARJINDAR KAUR",
+    "companyName": "TEKNO",
+    "mobileNo": "9922418217",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63a7d177f0ec2dd2392ca14f"
+    },
+    "customerName": "PRATHMESH GANDHI ",
+    "companyName": "QUADRANT TECHNOLOGI",
+    "mobileNo": "7620177168",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63aae6fc4dd7010c31a90fc3"
+    },
+    "customerName": "SONALI SATPUTE",
+    "companyName": "REVE PHARMA",
+    "mobileNo": "9373350623",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63aae7424dd7010c31a90fca"
+    },
+    "customerName": "ABHILASHA MORE",
+    "companyName": "CHEMSTROCAME ( Oak Sir )",
+    "mobileNo": "9823062588",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63b1300c6c8ab3b14c86af67"
+    },
+    "customerName": "SARANG INGLE",
+    "companyName": "YOGINI PRINTER",
+    "mobileNo": "8106365554",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63b130736c8ab3b14c86af72"
+    },
+    "customerName": "ANAND KATGAONKAR",
+    "companyName": "STUDIO BOX",
+    "mobileNo": "9833153545",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63b130ba6c8ab3b14c86af79"
+    },
+    "customerName": "DILIP APTE",
+    "companyName": "AMITA CUSTRUCTION",
+    "mobileNo": "9422245368",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63c004399bb7d685bd1735f3"
+    },
+    "customerName": "ADITYA CHADDA",
+    "companyName": "ARYAN AEROSPACE",
+    "mobileNo": "9871833350",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63d120d1442102558e77cc54"
+    },
+    "customerName": "SACHIN JADHAV",
+    "companyName": "S.M.AUTO",
+    "mobileNo": "9881467571",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63d90e53eea2ef1cfca8c2eb"
+    },
+    "customerName": "NIVRUTTI SONAWANE",
+    "companyName": "MORYA STRUCTURE",
+    "mobileNo": "7588236217",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63dcff1c5b3bc1f96a26e4a8"
+    },
+    "customerName": "AJINKYA JOSHI",
+    "companyName": "PANVA",
+    "mobileNo": "8378986283",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63dcff705b3bc1f96a26e4af"
+    },
+    "customerName": "RUSHIKESH MARATHE",
+    "companyName": "CAPRIN PVT LTD",
+    "mobileNo": "9623442035",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63e0bcc60916645a60629519"
+    },
+    "customerName": "SATISH BARVE",
+    "companyName": "AKNS",
+    "mobileNo": "9420694401",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63e0bd500916645a60629528"
+    },
+    "customerName": "SAVALI KULKARNI",
+    "companyName": "CATALYST INDIA",
+    "mobileNo": "8928749365",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63e4edea90963da8febb36ec"
+    },
+    "customerName": "SAGAR JOSHI",
+    "companyName": "Phatak & Joshi",
+    "mobileNo": "9422284520",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63e63466162285d94ee9805e"
+    },
+    "customerName": "SHAILESH PANDIT",
+    "companyName": "SHALAKA SHAFT",
+    "mobileNo": "9890014853",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63e6349e162285d94ee98065"
+    },
+    "customerName": "VISHAL MISHRA",
+    "companyName": "MERCEL FOODS ",
+    "mobileNo": "9579126823 MANGESH 7447766611 VISHAL SIR ",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63ef00cb2847b3aa79cbd86c"
+    },
+    "customerName": "MANISH KOTHARI",
+    "companyName": "MAHARASHTA PIPE",
+    "mobileNo": "9422247911",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63f36898ce2a0c1f92d1c1c2"
+    },
+    "customerName": "SUMIT JADHAV",
+    "companyName": "ELLUMINIOUS",
+    "mobileNo": "9175184818",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63f6ed50952155a58263023a"
+    },
+    "customerName": "VIJAY SHARMA",
+    "companyName": "JYOTI STRUCTURE",
+    "mobileNo": "7758822729",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63fd872512d4c69b2c920064"
+    },
+    "customerName": "SHIVAM WALZADE",
+    "companyName": "KONARK",
+    "mobileNo": "7709286396",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "640451915cb5a2dab4886558"
+    },
+    "customerName": "Darpan Adhaoo",
+    "companyName": "test",
+    "mobileNo": "9370277275",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "640f1a9fe3ed62ed3df8f2d4"
+    },
+    "customerName": "ABHAY BAG",
+    "companyName": "THE ART OF SUCCESS",
+    "mobileNo": "9881726594",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6411b31b8c107fdec459124f"
+    },
+    "customerName": "VIDYA PHADKE ",
+    "companyName": "GHRKUL PARIWAR",
+    "mobileNo": "9822033400",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64145a074aca24bd0e6503d2"
+    },
+    "customerName": "SHUBHADRA JOSHI",
+    "companyName": "PANVA",
+    "mobileNo": "9822478119",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6416fa7b9ab883ebef776b47"
+    },
+    "customerName": "DEEPAK PATIL",
+    "companyName": "ASHOKA",
+    "mobileNo": "9225222151",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6417ecc877be2cfdc2f98fb4"
+    },
+    "customerName": "PRASHANT WAGH",
+    "companyName": "SINNER ( CB SIR )",
+    "mobileNo": "9420691417",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6426794e74d6e35ea2f92220"
+    },
+    "customerName": "AMOL KALE",
+    "companyName": "SUNBEEM",
+    "mobileNo": "9822914182",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "642ac14a39988372e14e4416"
+    },
+    "customerName": "JAGAN BACHHAV",
+    "companyName": "THERMOMIND",
+    "mobileNo": "7875155110",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "642fba4c690ffe0b3ec2abc4"
+    },
+    "customerName": "AMEY PUROHIT",
+    "companyName": "ALBION",
+    "mobileNo": "7387004398",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6433be9b91e4dadaf42d4bbc"
+    },
+    "customerName": "UJWALA GOSAVI",
+    "companyName": "SVI CARBON",
+    "mobileNo": "9881876190",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6433bf2c91e4dadaf42d4bc3"
+    },
+    "customerName": "ALBERT SINGH",
+    "companyName": "S.S TEKNOVISION",
+    "mobileNo": "8056152037",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "643507feeacd7477a0cfb65d"
+    },
+    "customerName": "MEENU SHETTY",
+    "companyName": "JAI SPORT",
+    "mobileNo": "9975559141",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "643544fefe0d4f6646c0f21e"
+    },
+    "customerName": "SUBHAJIT ROY",
+    "companyName": "ENTRACO BKS",
+    "mobileNo": "79089 20461",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64412ec1f54b8ea1401ef045"
+    },
+    "customerName": "ADITYA KULKARNI",
+    "companyName": "TRIMBAK RUBBER",
+    "mobileNo": "9767807777",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "644e568819ff4578af3c9d58"
+    },
+    "customerName": "PRANAV SHIRKE",
+    "companyName": "SANJAY TOOLS",
+    "mobileNo": "9156833771",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6458e6e994d5f1e8566c7588"
+    },
+    "customerName": "JAYANT FEGDE",
+    "companyName": "S.M.AUTO",
+    "mobileNo": "8551008555",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6458e73594d5f1e8566c758f"
+    },
+    "customerName": "SHAM DHOMSE ",
+    "companyName": "MERSEL FOODS",
+    "mobileNo": "97660I9776",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "646cae78672cf4ffb32e92e4"
+    },
+    "customerName": "ANAGHA PATIL",
+    "companyName": "ENVIRON PLANNERS",
+    "mobileNo": "9665765184",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "647741484cf66792200ef434"
+    },
+    "customerName": "AKSHAY VARMA",
+    "companyName": "EI GRAPHITE",
+    "mobileNo": "9822033349",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "647876e6bd33a958ef78026e"
+    },
+    "customerName": "URVISH MORE",
+    "companyName": "URWISH ENGG",
+    "mobileNo": "7722045340",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6479e5b5e7f1f1c2ed2c47c3"
+    },
+    "customerName": "NISHA TANDEL",
+    "companyName": "TEKNO",
+    "mobileNo": "7517078136",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6479e5f6e7f1f1c2ed2c47ca"
+    },
+    "customerName": "YASHWANT JADHAV",
+    "companyName": "SPARKHY",
+    "mobileNo": "8605357646",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6485bf666d61b75c1a8dd427"
+    },
+    "customerName": "RAMAKANT KHAIRNAR",
+    "companyName": "RAMRAJYA ENGG",
+    "mobileNo": "9822497662",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "648aaaa9e03ba6cd10e57603"
+    },
+    "customerName": "AAKASH KHAIRNAR",
+    "companyName": "TEKNO PERSONAL",
+    "mobileNo": "8855865771",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6490478f147f7be9a092f3cd"
+    },
+    "customerName": "SANCHI KATARIYA",
+    "companyName": "REVE PHARMA",
+    "mobileNo": "9370725523",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "649ab57be51f2553afcf0b15"
+    },
+    "customerName": "MAITHILI JADHAV ",
+    "companyName": "KARKHANIS ",
+    "mobileNo": "9822146482",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "649ab5c1e51f2553afcf0b1c"
+    },
+    "customerName": "Aniket Sarode",
+    "companyName": "Konark Engg",
+    "mobileNo": "7972471778",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "649acd6fa0c166d623b8f819"
+    },
+    "customerName": "SWATI GOGATE",
+    "companyName": "GOGATE ELECTRO",
+    "mobileNo": "9850301966",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "649e8285243ce1a25921e467"
+    },
+    "customerName": "ENTRACO BKS",
+    "companyName": "SUPRIYA MAM",
+    "mobileNo": "9834043122",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "649e8371243ce1a25921e476"
+    },
+    "customerName": "DHANANJAY SINGH",
+    "companyName": "S.T. INDU",
+    "mobileNo": "8857930761 SHRIKANT THANIKONDA SIR-9422255957",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "649ead601dae8aa0050d11f6"
+    },
+    "customerName": "NAVIN BHISSA",
+    "companyName": "PRAKASH SIR ",
+    "mobileNo": "9921313344",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64a400d75a1399babb552c15"
+    },
+    "customerName": "DHANLAXMI PATWARDHAN",
+    "companyName": "THE LINK ",
+    "mobileNo": "8600147208",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64a40a336cab7da07654de08"
+    },
+    "customerName": "TUSHAR TAKALKAR",
+    "companyName": "PROTHEOUS",
+    "mobileNo": "8605000701",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64b13493f4ec0cf6e5b38762"
+    },
+    "customerName": "RUNESH KANSARA",
+    "companyName": "MUFRONT",
+    "mobileNo": "9307011700",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64ba54228efe09c39a3c02bc"
+    },
+    "customerName": "Tanvi Deshmukh",
+    "companyName": "Prasad Part ",
+    "mobileNo": "8788825879",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64bf51b27fd71e90d29bac89"
+    },
+    "customerName": "DINESH HIRE",
+    "companyName": "KSHITIJ CONSTRUCTION",
+    "mobileNo": "9422945199",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64c3aa9109be7b381b52da1b"
+    },
+    "customerName": "MILIND DESAI",
+    "companyName": "NASA ",
+    "mobileNo": "9422271456",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64c78087880bc16f8e6462fa"
+    },
+    "customerName": "MANDAR GOKARN",
+    "companyName": "SANJAY TOOLS ",
+    "mobileNo": "9822028518",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64c8c7c6652d45c4b657a823"
+    },
+    "customerName": "NEERA MUNDLE",
+    "companyName": "PROCESS UNIT",
+    "mobileNo": "9920082212",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64ca158e9c50e0d8da45bf77"
+    },
+    "customerName": "MADHUMATI JOSHI",
+    "companyName": "PHATAK & JOSHI",
+    "mobileNo": "8805646733",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64ccee07834c2259239626ff"
+    },
+    "customerName": "ISHAN MEHTA ",
+    "companyName": "METAFORGE HOME ",
+    "mobileNo": "8805753212",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64d1f205917b1e0872882009"
+    },
+    "customerName": "SANIKA PAWAR",
+    "companyName": "NILESH PATIL REF",
+    "mobileNo": "9130180515",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64d47cd0325c65d2962a1b8a"
+    },
+    "customerName": "SANAP",
+    "companyName": "ELECTRONICA SINNER",
+    "mobileNo": "9822659448",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64dc71eebf8f61a77c9796e6"
+    },
+    "customerName": "SAUMEDH DESHPANDE",
+    "companyName": "SD WORK",
+    "mobileNo": "8237839305",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64dc7220bf8f61a77c9796ed"
+    },
+    "customerName": "SUSHIL DESHPANDE",
+    "companyName": "SD WORK",
+    "mobileNo": "9850066505",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64df6abc2ff9827f232aec3b"
+    },
+    "customerName": "VANDAN KULKARNI",
+    "companyName": "POWERINST",
+    "mobileNo": "9028393456",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64df6af62ff9827f232aec42"
+    },
+    "customerName": "SIDH KABRA",
+    "companyName": "UNITED BOX",
+    "mobileNo": "9822391045",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64e207aeb95185fa03a39e4c"
+    },
+    "customerName": "VIKRAM DHANDEKAR ",
+    "companyName": "INFIRECON ENERGY PVT LTD ",
+    "mobileNo": "7767091409",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64e603828a09c74523345a27"
+    },
+    "customerName": "RUCHA KULTHE",
+    "companyName": "KUNAL MAID",
+    "mobileNo": "9730217370",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64eae1d2053857bf35565a84"
+    },
+    "customerName": "SHRIYA GOKHALE",
+    "companyName": "LOGIC SOLUTION",
+    "mobileNo": "9823217115",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f1ca379716873560bdd080"
+    },
+    "customerName": "ISHITA MEHTA ",
+    "companyName": "METAFORGE HOME ",
+    "mobileNo": "7030042212",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f1ca869716873560bdd087"
+    },
+    "customerName": "Amar Pendse",
+    "companyName": "Aryan Innovative Techno engg",
+    "mobileNo": "9860094724",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f5bc34bbf6853193abd8fc"
+    },
+    "customerName": "MAHESH MORE",
+    "companyName": "SVI CARBON",
+    "mobileNo": "77700 41415",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f8720413c019449aaf2aea"
+    },
+    "customerName": "MANGESH GANDHI ",
+    "companyName": "QUADRANT TECHNOLOGI",
+    "mobileNo": "9823102264",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f9c24763ab283671b45477"
+    },
+    "customerName": "SAKSHI PANDIT ",
+    "companyName": "SHALAKA HOME",
+    "mobileNo": "7028014853",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64fb17908ec7a07bf6ee5485"
+    },
+    "customerName": "SADASHIV STEEL",
+    "companyName": "ANJALI MADAM",
+    "mobileNo": "7709169976",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64fb17d28ec7a07bf6ee548c"
+    },
+    "customerName": "SANIKA PAWAR",
+    "companyName": "NILESH PATIL REF ",
+    "mobileNo": "9130180515 / 9420211174",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6504525fee810173cd664fdb"
+    },
+    "customerName": "Ar.Mahesh Pathak",
+    "companyName": "Mahesh Pathak",
+    "mobileNo": "9371796934",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6506c5c042ddc33b3681f317"
+    },
+    "customerName": "Sachin Pawar",
+    "companyName": "Ar. Dnyanesh Bapat",
+    "mobileNo": "9112733854 / 9822457591 Sir",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65092a0017c16a07da07f970"
+    },
+    "customerName": "Shubham Jadhav",
+    "companyName": "Ellumious",
+    "mobileNo": "7447854585",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6509420217c16a07da07f97f"
+    },
+    "customerName": "Priti Jhawar",
+    "companyName": "Takle Old Gold",
+    "mobileNo": "9373900332",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650ac611bba720deaf7ad6ed"
+    },
+    "customerName": "Rahul Pagare",
+    "companyName": "King Club",
+    "mobileNo": "8308585277",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650bcfe5764da5d528339521"
+    },
+    "customerName": "Sachin Khairnar",
+    "companyName": "SINNER Trimbak rubber",
+    "mobileNo": "9130034470",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650c1cb9630626cda0c9b89d"
+    },
+    "customerName": "Electornica Plant-1 Sinner",
+    "companyName": "Sanap Sir",
+    "mobileNo": "9822659448",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650c2e95630626cda0c9b8ac"
+    },
+    "customerName": "Deepali Patwardhan",
+    "companyName": "Logic Systems",
+    "mobileNo": "9850127996",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65100c19a3a3d0aa0ba110d7"
+    },
+    "customerName": "S.R Metring ",
+    "companyName": "Sameer Tambat",
+    "mobileNo": "9822650760",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6511181941b9d3e0e2626bcc"
+    },
+    "customerName": "Power Inst",
+    "companyName": "Rajgonda Patil",
+    "mobileNo": "9423708797",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6515226d53b0169fc4ad7ea4"
+    },
+    "customerName": "Bele Architect",
+    "companyName": "Arc Sameer Bele",
+    "mobileNo": "9422250197",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65152cac53b0169fc4ad7eb7"
+    },
+    "customerName": "Ravi Rajput",
+    "companyName": "Tekno",
+    "mobileNo": "9881043003",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "651bb7e6f81b66ac9162720f"
+    },
+    "customerName": "Angad Chitale",
+    "companyName": "Makarand Chitale",
+    "mobileNo": "9822308932 ",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65238268718de37b6bbfbfdf"
+    },
+    "customerName": "Ashoka Buidcon ( Services )",
+    "companyName": "Dhananjay Sir ",
+    "mobileNo": "9130080407",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65264c88917e49e8544c2c64"
+    },
+    "customerName": "Devesh Pathak ",
+    "companyName": "Tekno",
+    "mobileNo": "9850995361",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6527d32d4d4ea8d21482b5a3"
+    },
+    "customerName": "Panchal Engineers ",
+    "companyName": "Priya Panchal ",
+    "mobileNo": "9850310952",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6527d32e4d4ea8d21482b5a6"
+    },
+    "customerName": "Panchal Engineers ",
+    "companyName": "Priya Panchal ",
+    "mobileNo": "9850310952",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "652f8b404ad526a5d2d33cc7"
+    },
+    "customerName": "Nikhil Medico",
+    "companyName": "Shete Sir",
+    "mobileNo": "9822012384",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "652fa11e4ad526a5d2d33cda"
+    },
+    "customerName": "Samarth Engineers",
+    "companyName": "Prasad Shetty",
+    "mobileNo": "9021087839",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6530b0474fd33e432e8a6b5c"
+    },
+    "customerName": "Quest Academy",
+    "companyName": "Renuka Mujumdar",
+    "mobileNo": "8275307636",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6530b04d4fd33e432e8a6b5f"
+    },
+    "customerName": "Quest Academy",
+    "companyName": "Renuka Mujumdar",
+    "mobileNo": "8275307636",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65361eaf50e3aee609a81e27"
+    },
+    "customerName": "Shriya Gokhale ",
+    "companyName": "Logic Solutions",
+    "mobileNo": "9823217115",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6539f6bc6264d9335abf3169"
+    },
+    "customerName": "Brances Innovations",
+    "companyName": "Sunil Gidh",
+    "mobileNo": "9422249150",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "654496bdfce15353a2057f95"
+    },
+    "customerName": "Ravi Joshi",
+    "companyName": "Chetan Sir Ref",
+    "mobileNo": "9665374301",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65471aa0b39898db9d84ba99"
+    },
+    "customerName": "SVI CARBON",
+    "companyName": "Rupali Dixit",
+    "mobileNo": "7709777526",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65471f77b39898db9d84baa4"
+    },
+    "customerName": "Ashoka Buidcon ( Services )",
+    "companyName": "Prashant Sonawane Sir ",
+    "mobileNo": "9130010968/9130080407",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65471f85b39898db9d84baa7"
+    },
+    "customerName": "Ashoka Buildcon ( Services )",
+    "companyName": "Prashant Sonawane Sir ",
+    "mobileNo": "9130010968/9130080407",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "654756ee1b19c5c5c2b9d5f0"
+    },
+    "customerName": "Klasspack ",
+    "companyName": "Chandrakant Bonde ",
+    "mobileNo": "9423104225",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "654880e0f017ae5412e07aed"
+    },
+    "customerName": "Omkar Patil",
+    "companyName": "Vedvrat Patwardhan",
+    "mobileNo": "9096782972",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6548e02509811970afa8a12a"
+    },
+    "customerName": "Omkar Jagtap",
+    "companyName": "Prabhanajan Sir",
+    "mobileNo": "Omkar Jagtap",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6549cc4a4254d1f22a6c9bcb"
+    },
+    "customerName": "Rohit Yelgat",
+    "companyName": "ENVIRON PLANNERS",
+    "mobileNo": "9970390842",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "654b18e86bdde7d41c670410"
+    },
+    "customerName": "Nashik Insulation",
+    "companyName": "Sanjiv Kaushik Sir ",
+    "mobileNo": "9822436005 / 9822436004 madam ",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "654b2c356bdde7d41c67041f"
+    },
+    "customerName": "Varsha Dangrekar",
+    "companyName": "Logic Systems",
+    "mobileNo": "9561215222",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "654dfadcf130ab316d4adaca"
+    },
+    "customerName": "Namrata Joshi ",
+    "companyName": "Logic Systems",
+    "mobileNo": "9922149468",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "655c3e7f77b49d4036db281d"
+    },
+    "customerName": "Druva Sahane ",
+    "companyName": "Logic Systems",
+    "mobileNo": "9309553667",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "655c40fc77b49d4036db282c"
+    },
+    "customerName": "Hope Care Cancer Centre",
+    "companyName": "Priya Nene",
+    "mobileNo": "9423969247",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "655ca4ed01a5da7082c67be9"
+    },
+    "customerName": "Vaibhav Kasture",
+    "companyName": "S.D. Works",
+    "mobileNo": "7722023435",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "655d8e31cec5153f514ebeb5"
+    },
+    "customerName": "Chintamani Aaradhye ",
+    "companyName": "Logic Systems",
+    "mobileNo": "9545556434",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "655df3df7b9629f37cc24536"
+    },
+    "customerName": "Urmila Palekar ",
+    "companyName": "flat no 302 3rd Floor Raghunandan apt sirin Medows GP Road Nashik",
+    "mobileNo": "9975977951",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "655ef2f5e55b6997c169cdf6"
+    },
+    "customerName": "Akash Chawanke ",
+    "companyName": "Logic Systems",
+    "mobileNo": "9730200262",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6566f8cc647914953938d165"
+    },
+    "customerName": "Chaitanya Pharma",
+    "companyName": "Pushkar Pathak",
+    "mobileNo": "9822311382",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6569aaa88b3712d6820556da"
+    },
+    "customerName": "Nikhil Shete ",
+    "companyName": "Logic Systems",
+    "mobileNo": "9209765012",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6569b98e8b3712d6820556e9"
+    },
+    "customerName": "Ajay Bhoraskar",
+    "companyName": " Ajay Services",
+    "mobileNo": "9422284458 / 8237810754 Sweta Mam",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656c4ab2e98488e5fdb4c360"
+    },
+    "customerName": "Gogate Electro",
+    "companyName": "Ashish Bhanose ",
+    "mobileNo": "9850647722",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656d9ef3fa601e70b828fda3"
+    },
+    "customerName": "Darshan Chavan",
+    "companyName": "Logic Systems",
+    "mobileNo": "9834045813 / 9860263685",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656d9fe4fa601e70b828fdae"
+    },
+    "customerName": "ARPAN KUMAR",
+    "companyName": "MAHALAXMI SALES",
+    "mobileNo": "9373914968 / 9146667226",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656dcb58064f0703083fa6cd"
+    },
+    "customerName": "Mufront Technologies",
+    "companyName": "Sagar Londge ( Accounts )",
+    "mobileNo": "8799958519",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6570297fe65ac6e1da8e6519"
+    },
+    "customerName": "Mukund Pendse ",
+    "companyName": "Logic Systems",
+    "mobileNo": "9922960127",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "657040d1e65ac6e1da8e6528"
+    },
+    "customerName": "Shreenandan Bhalerao",
+    "companyName": "Morya Structure",
+    "mobileNo": "9373900539",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6571c17c3f722991bab4c1a3"
+    },
+    "customerName": "Ganesh Ranmale",
+    "companyName": "YK",
+    "mobileNo": "9765559787",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6575465d3fcc53259924ccc7"
+    },
+    "customerName": "PRANAV GADGIL",
+    "companyName": "SAMYAK",
+    "mobileNo": "9823114555",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6576a15af44fdc076b4cecff"
+    },
+    "customerName": "Ozon Systems",
+    "companyName": "Rahul Kale",
+    "mobileNo": "8793866413",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65784a30e092408df728b37b"
+    },
+    "customerName": "Prasad Gorhe",
+    "companyName": "Logic Systems",
+    "mobileNo": "9422243205",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6579704bf960a6429ffeaacc"
+    },
+    "customerName": "TEKNO",
+    "companyName": "NISHA TANDEL ",
+    "mobileNo": "7517078136",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65798a88f960a6429ffeaadb"
+    },
+    "customerName": "Vikrant Mohgaonkar ",
+    "companyName": "Logic Systems",
+    "mobileNo": "9422254773",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65798a88f960a6429ffeaadd"
+    },
+    "customerName": "Vikrant Mohgaonkar ",
+    "companyName": "Logic Systems",
+    "mobileNo": "9422254773",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65798a89f960a6429ffeaae0"
+    },
+    "customerName": "Vikrant Mohgaonkar ",
+    "companyName": "Logic Systems",
+    "mobileNo": "9422254773",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "657e80a888c0c91cce2c5889"
+    },
+    "customerName": "Vaishnavi Shrivastav",
+    "companyName": "Gaurav Karmase",
+    "mobileNo": "8888818522",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "657eead9f6ed80ac9b594d88"
+    },
+    "customerName": "Konark Engg",
+    "companyName": "Aniket Sarode ",
+    "mobileNo": "7972471778",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ffa159650a7422a04b79"
+    },
+    "customerName": "Anupum Kajale ",
+    "companyName": "Logic Systems",
+    "mobileNo": "7768977741",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65852efae6af480adc5d7b2e"
+    },
+    "customerName": "PRIYA PANGAM",
+    "companyName": "Logic Systems",
+    "mobileNo": "9561290115",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6587f43551bd7e5c8d2acddb"
+    },
+    "customerName": "Reve Farma Home ",
+    "companyName": "Anjali Kataria",
+    "mobileNo": "9423137285",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6587f49e51bd7e5c8d2acdea"
+    },
+    "customerName": "Trimbak Rubber",
+    "companyName": "Sachin Khairnar",
+    "mobileNo": "9130034470",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6587f4a651bd7e5c8d2acded"
+    },
+    "customerName": "Trimbak Rubber Sinner",
+    "companyName": "Sachin Khairnar",
+    "mobileNo": "9130034470",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6587f4e251bd7e5c8d2acdf4"
+    },
+    "customerName": "S.M. Auto Sinner ",
+    "companyName": "Sachin Khairnar",
+    "mobileNo": "9130034470",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658917af665e6dc65494add0"
+    },
+    "customerName": "Ambika Press Metal",
+    "companyName": "Girish Murti",
+    "mobileNo": "9970178343",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658bd932b275ef98058cbad6"
+    },
+    "customerName": "Vikrant Pendse ",
+    "companyName": "Logic Systems",
+    "mobileNo": "9657188557",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658d5f735159717ead7ac55d"
+    },
+    "customerName": "Rushikesh Falle ",
+    "companyName": "Logic Systems",
+    "mobileNo": "9284413197",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658d5fad5159717ead7ac568"
+    },
+    "customerName": "Ganesh Sonavane ",
+    "companyName": "Logic Systems",
+    "mobileNo": "9604662062",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65954840234b918015bbb06f"
+    },
+    "customerName": "Tushar Thakur",
+    "companyName": "Logic Systems",
+    "mobileNo": "9769497961",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659637bf25d092b28254defe"
+    },
+    "customerName": "Shirke Electro",
+    "companyName": "Bhagyashree Shirke",
+    "mobileNo": "9822094472",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6596446b25d092b28254df05"
+    },
+    "customerName": "Makrand Desai",
+    "companyName": "Nasa Enterprices",
+    "mobileNo": "9372293788",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65978a5ad0157a3b3e2f60a4"
+    },
+    "customerName": "Avinash Sonawane ",
+    "companyName": "Logic Systems",
+    "mobileNo": "8446699977",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659b876d20316656adff3757"
+    },
+    "customerName": "Mangal Industries",
+    "companyName": "Archana Saraf",
+    "mobileNo": "9420694524",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659b89a720316656adff3766"
+    },
+    "customerName": "Supriya Devanhali",
+    "companyName": "Logic Systems",
+    "mobileNo": "9075775145",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659bc28c470bc4d9d5a7048d"
+    },
+    "customerName": "EI Graphite",
+    "companyName": "Akash Lahamge",
+    "mobileNo": "7774094711",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659d2f1faa6a6a2bee4cd2dd"
+    },
+    "customerName": "Shivam Jadhav",
+    "companyName": "Elluminious",
+    "mobileNo": "7447854585",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659d3b5caa6a6a2bee4cd302"
+    },
+    "customerName": "Teeth Care ",
+    "companyName": "Smita Saudagar",
+    "mobileNo": "8975757163",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65a377c1bbeaeac096970fca"
+    },
+    "customerName": "Suyash Galgale",
+    "companyName": "Logic Systems",
+    "mobileNo": "9552009933",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65aa37fcb213fd4035aa1f7b"
+    },
+    "customerName": "Abhishek Ayachit",
+    "companyName": "Logic Systems",
+    "mobileNo": "9890632472",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65ae02644c632b0b1cf78743"
+    },
+    "customerName": "Electronica Plant-1 Sinner",
+    "companyName": "Sanap Sir",
+    "mobileNo": "9822659448",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65ae2d8ab833f18761183583"
+    },
+    "customerName": "Parag Saudagar",
+    "companyName": "Dr. Saudagar",
+    "mobileNo": "9987398544",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65ae632d215b1d34e466d98b"
+    },
+    "customerName": "Sparkhy Industries",
+    "companyName": "Anjali Madam",
+    "mobileNo": "9423174443",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65b10d0d31b1b07f89feb334"
+    },
+    "customerName": "G.G ELECTRONICS",
+    "companyName": "ANIL GANGWAL ",
+    "mobileNo": "9422252047",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65b10d0d31b1b07f89feb336"
+    },
+    "customerName": "G.G ELECTRONICS",
+    "companyName": "ANIL GANGWAL ",
+    "mobileNo": "9422252047",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65b1ef038c3e3f5e6835fb27"
+    },
+    "customerName": "Sonali Dabak",
+    "companyName": "Logic Systems",
+    "mobileNo": "9422940778",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65b1ef088c3e3f5e6835fb2a"
+    },
+    "customerName": "Sonali Dabak",
+    "companyName": "Logic Systems",
+    "mobileNo": "9422940778",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65b229cb7b1b8899c011c7b1"
+    },
+    "customerName": "Trambak Rubber Sinner",
+    "companyName": "Sachin Khairnar",
+    "mobileNo": "9130034470",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65b637a4f91926b19e7d6a3c"
+    },
+    "customerName": "Kaizen Corporation",
+    "companyName": "Pradip Kelkar ",
+    "mobileNo": "8378956050",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65bb2a9c3911ed3bfc982263"
+    },
+    "customerName": "Star Video Vision",
+    "companyName": "Firoz Sir ",
+    "mobileNo": "8668441310",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65bb5b3b6f55647afd74e7ac"
+    },
+    "customerName": "Shubham Jadhav ",
+    "companyName": "Elluminious Personal laptop",
+    "mobileNo": "7447854585",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65bb740c6f55647afd74e7c1"
+    },
+    "customerName": "Yogesh Kulkarni",
+    "companyName": "Logic Systems",
+    "mobileNo": "9970587625",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65c1c0c37686be830282f0fa"
+    },
+    "customerName": "Devang Oltikar",
+    "companyName": "Gayatri mam",
+    "mobileNo": "8600010742",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65c1c0fd7686be830282f101"
+    },
+    "customerName": "Ramayan Engineers",
+    "companyName": "Bhaidas Mali",
+    "mobileNo": "9922996177",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65c2275aed8813998d387a6c"
+    },
+    "customerName": "Nene Trading",
+    "companyName": "Sudeep Nene",
+    "mobileNo": "9422270298",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65c9e2a70fe6a3f1062a72e4"
+    },
+    "customerName": "Klasspack Plant II",
+    "companyName": "Klasspack Plant II",
+    "mobileNo": "9423104225",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65c9e2af0fe6a3f1062a72e7"
+    },
+    "customerName": "Klasspack Plant II",
+    "companyName": "Klasspack Plant II",
+    "mobileNo": "9423104225",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65c9e6270fe6a3f1062a7304"
+    },
+    "customerName": "Gogate Electro",
+    "companyName": "Ashish Bhanose ",
+    "mobileNo": "9850647722",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65cca9a5d3bb633c298ed6b9"
+    },
+    "customerName": "Vivek Ketkar",
+    "companyName": "Logic Systems",
+    "mobileNo": "9423555520",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65cf113d32d3f29182e74313"
+    },
+    "customerName": "Ashwin Birari ",
+    "companyName": "Anup Birari",
+    "mobileNo": "8446173154 / Anup - 8379980085",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65cf11b832d3f29182e7431e"
+    },
+    "customerName": "C.A Gujrathi",
+    "companyName": "Sonali Gujrathi",
+    "mobileNo": "9823166642 / 7972383274",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65d1a1f16ade3b51e89f9969"
+    },
+    "customerName": "Multiquadrant Sinner ",
+    "companyName": "Hemant Kalamkar",
+    "mobileNo": "9970903367",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65d2ea81182e56963bce29f9"
+    },
+    "customerName": "Hemant Kale",
+    "companyName": "Logic Systems",
+    "mobileNo": "9423508121",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65d457cbf6095a401fa9de8c"
+    },
+    "customerName": "Santosh Ghatol ",
+    "companyName": "Logic Systems Pretheous ",
+    "mobileNo": "9604067375",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65d5841f46b28d14f46c3e70"
+    },
+    "customerName": "Atharva Media Concept",
+    "companyName": "Sachin Deshmukh",
+    "mobileNo": "9325641012",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65d5aa64de0814ad0be6fb75"
+    },
+    "customerName": "Teknocrats",
+    "companyName": "Ravi Rajput",
+    "mobileNo": "9881043003",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65d822ac3f3b3eca23db0d6c"
+    },
+    "customerName": "Ashoka Buildcon ( Services )",
+    "companyName": "Dhananjay Sir ",
+    "mobileNo": "9130080407",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65dc57b6091c0d9f9d0c2f62"
+    },
+    "customerName": "Sameer Thorat ",
+    "companyName": "Logic Systems",
+    "mobileNo": "7558769999",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65ddb9d1b65fa826cc396311"
+    },
+    "customerName": "Shreya Joshi",
+    "companyName": "Dinesh Khare",
+    "mobileNo": "9146156079",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65dec9e5977ffd9037df24c7"
+    },
+    "customerName": "Parag Dandwate",
+    "companyName": "Logic Systems",
+    "mobileNo": "9881121120",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65e070cc38d24430ad2d5639"
+    },
+    "customerName": "Thermominds",
+    "companyName": "Jagan Bachhav",
+    "mobileNo": "7875155110",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65e42b508c2d9e5e96032e21"
+    },
+    "customerName": "Orchid Polycoates",
+    "companyName": "Naik Madam",
+    "mobileNo": "9765409688",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65e6dd8ff7aa1236cdae5a8d"
+    },
+    "customerName": "Joto ",
+    "companyName": "Manoj Joshi",
+    "mobileNo": "9823383636",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65e6fda695f998ebd6ad5fd4"
+    },
+    "customerName": "Vaishali Chavan",
+    "companyName": "Logic Systems",
+    "mobileNo": "9552717367",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65e94c185cafca44297d687a"
+    },
+    "customerName": "ATUL GAIKWAD",
+    "companyName": "NIRMAL GRAM KENDRA",
+    "mobileNo": "9405062198",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65e983dd5cafca44297d6889"
+    },
+    "customerName": "Sparkle School ",
+    "companyName": "Vasudha Patil",
+    "mobileNo": "9822001253 / 9028334780",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65ed81ed31207d790a7fe1b1"
+    },
+    "customerName": "Atul Vairaskar",
+    "companyName": "Logic Systems",
+    "mobileNo": "9552762016",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65effc0131207d790a7fe1c6"
+    },
+    "customerName": "FOG CITY",
+    "companyName": "Laukin Sir ",
+    "mobileNo": "86699999360 / Madhav sir 9822054443",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65f03fa631207d790a7fe1e7"
+    },
+    "customerName": "Aurumine Naturals ",
+    "companyName": "Sarth Katariya",
+    "mobileNo": "7558337285 / Anjali Kataria - 9423137285",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65f03fd931207d790a7fe1ee"
+    },
+    "customerName": "Megha Sabane",
+    "companyName": "Rollwell Holding And Trading ",
+    "mobileNo": "9370919456",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65f0434a31207d790a7fe1f9"
+    },
+    "customerName": "Deepali Kangane",
+    "companyName": "Logic Systems",
+    "mobileNo": "8605634438",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65f2b991310735d0e9c232c6"
+    },
+    "customerName": "Hemant Gaikwad",
+    "companyName": "Yogesh Kshirsagar",
+    "mobileNo": "9922139227",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65f3de47310735d0e9c232df"
+    },
+    "customerName": "Trambak Rubber Nashik",
+    "companyName": "Surendra Abhale ",
+    "mobileNo": "9823969317",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65f91985d9bfdff1c1499889"
+    },
+    "customerName": "Vinay Gokhale ",
+    "companyName": "Logic Systems",
+    "mobileNo": "9822023435 Deshpande sir - 9822277814",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65f942ffd9bfdff1c14998a0"
+    },
+    "customerName": "Ashoka Buildcon ( Services )",
+    "companyName": "Prashant Sonawane Sir ",
+    "mobileNo": "9130010968/9130080407",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65f97111d9bfdff1c14998af"
+    },
+    "customerName": "Vetex Presice",
+    "companyName": "Vevan Mohan",
+    "mobileNo": "7276446422",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65fbc5fa161ee26016f81d8b"
+    },
+    "customerName": "Reve Pharma Sinner",
+    "companyName": "Sachin Khairnar ",
+    "mobileNo": "9130034470",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65fc0f53161ee26016f81da6"
+    },
+    "customerName": "Rohan Kulkarni",
+    "companyName": "Logic Systems",
+    "mobileNo": "9689923487",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65fd6aa4161ee26016f81df5"
+    },
+    "customerName": "CA. Avinash Shukla",
+    "companyName": "Logic Systems",
+    "mobileNo": "9890184190",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65ffbc223108e3abf52aed6b"
+    },
+    "customerName": "Yogesh bodhe",
+    "companyName": "Logic Systems",
+    "mobileNo": "9970888016",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6603b3e8989a85784c6554c4"
+    },
+    "customerName": "Ameya Purohit ",
+    "companyName": "Albion",
+    "mobileNo": "7387004398",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6603bf2e989a85784c6554cf"
+    },
+    "customerName": "Raghunandan Velhankar",
+    "companyName": "Logic Systems",
+    "mobileNo": "9322252575",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6606488e45ecfd499595b5f1"
+    },
+    "customerName": "Ashwin Bhide",
+    "companyName": "Logic Systems",
+    "mobileNo": "8149761825",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6608f86745ecfd499595b60a"
+    },
+    "customerName": "Panva Engg",
+    "companyName": "Ajinkya Joshi",
+    "mobileNo": "8378986283",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "660a98286290292ee84c64b1"
+    },
+    "customerName": "PUSHKAR DONDGE",
+    "companyName": "Madhav Sir",
+    "mobileNo": "9822054443",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "660bddb1f61b478f1053549f"
+    },
+    "customerName": "C.A Prasanna Pangam",
+    "companyName": "Palsule Pangam & Company",
+    "mobileNo": "9561094168",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "660cf02504789012890d4c84"
+    },
+    "customerName": "Darshan Vaidya ",
+    "companyName": "Logic Systems",
+    "mobileNo": "9225111275",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66124ee6047cab15345ba3b9"
+    },
+    "customerName": "Anirudha Athani",
+    "companyName": "Tekno Skill Polymers",
+    "mobileNo": "9822069872",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6612912a047cab15345ba3cc"
+    },
+    "customerName": "Suyash Enterprices",
+    "companyName": "Bharat Yeola",
+    "mobileNo": "9422247571",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6612912c047cab15345ba3ce"
+    },
+    "customerName": "Suyash Enterprices",
+    "companyName": "Bharat Yeola",
+    "mobileNo": "9422247571",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6612912c047cab15345ba3d0"
+    },
+    "customerName": "Suyash Enterprices",
+    "companyName": "Bharat Yeola",
+    "mobileNo": "9422247571",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6616343247af6bb87e599c2f"
+    },
+    "customerName": "Circuit Arts",
+    "companyName": "Sanjay Pande ",
+    "mobileNo": "9822515910",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "661773f847af6bb87e599c48"
+    },
+    "customerName": "Eluminious ",
+    "companyName": "Shubham Jadhav ",
+    "mobileNo": "7447854585",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66177e2447af6bb87e599c5b"
+    },
+    "customerName": "Praha Vanture",
+    "companyName": "Pranav Gadgil",
+    "mobileNo": "9673966305 ",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6618d2f847af6bb87e599caa"
+    },
+    "customerName": "Sandip Phatak ",
+    "companyName": "Phatak & Joshi",
+    "mobileNo": "9422270596",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "661bc0fad6bce63edcd84a42"
+    },
+    "customerName": "Ved Ware",
+    "companyName": "Logic Systems",
+    "mobileNo": "9822910531",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "661e747fd6bce63edcd84a8b"
+    },
+    "customerName": "Nidhi Khare",
+    "companyName": "Logic Systems",
+    "mobileNo": "9075019608",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "661e7486d6bce63edcd84a8f"
+    },
+    "customerName": "Nidhi Khare",
+    "companyName": "Logic Systems",
+    "mobileNo": "9075019608",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6624d3ed91e8056a7eeeb380"
+    },
+    "customerName": "Logic Systems Office",
+    "companyName": "Sanjiv Chavan",
+    "mobileNo": "9850127996",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6624d3f091e8056a7eeeb383"
+    },
+    "customerName": "Logic Systems Office",
+    "companyName": "Sanjiv Chavan",
+    "mobileNo": "9850127996",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "662608fe91e8056a7eeeb3a6"
+    },
+    "customerName": "Manju Rathi",
+    "companyName": "Logic Systems",
+    "mobileNo": "7972191170",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66276ae291e8056a7eeeb3f3"
+    },
+    "customerName": "Sangita Moghe",
+    "companyName": "Pacific Enterprices",
+    "mobileNo": "9637695999",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "662788f891e8056a7eeeb408"
+    },
+    "customerName": "Sidharth Patwardhan",
+    "companyName": "Prabhanajan Sir",
+    "mobileNo": "9822045806",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66279ada91e8056a7eeeb41f"
+    },
+    "customerName": "Konark Engg",
+    "companyName": "Vishal Deshmukh",
+    "mobileNo": "78874779766",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "662f3767c7f4b5ff6e0da642"
+    },
+    "customerName": "Manda Engineering",
+    "companyName": "Prashant Chafekar",
+    "mobileNo": "9823103161",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "662f3832c7f4b5ff6e0da64d"
+    },
+    "customerName": "Dr. Prakash Verekar",
+    "companyName": "Logic Systems",
+    "mobileNo": "9822281142",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "662f5e1f685cd159ba5cb94c"
+    },
+    "customerName": "Lata Chhatpar",
+    "companyName": "Logic Systems",
+    "mobileNo": "9892578643",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "663083450d560ab17399aa7e"
+    },
+    "customerName": "Rashmi Mujumdar",
+    "companyName": "Suhas Jape",
+    "mobileNo": "9049323212 Suhas Jape - 9122247101",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6638cc610d560ab17399ab73"
+    },
+    "customerName": "Priyanka Dhumal",
+    "companyName": "Rohan Ghare ( Catalyst )",
+    "mobileNo": "8446526706",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6639d4630d560ab17399ab86"
+    },
+    "customerName": "Shridhar Paranjape",
+    "companyName": "Logic Systems",
+    "mobileNo": "9850102687",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "663b723f5049cd7d85cd6b15"
+    },
+    "customerName": "Sarthak Dharankar ",
+    "companyName": "Graph Advertise",
+    "mobileNo": "7507006050",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "663cbafc1fd11e023496c806"
+    },
+    "customerName": "Gilbert & Maxwell",
+    "companyName": "Pradeep Deshpande",
+    "mobileNo": "9822612511",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66435279624ffa09be388381"
+    },
+    "customerName": "Vaishali Khare ",
+    "companyName": "Nidhi khare ",
+    "mobileNo": "9822596663",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66435667624ffa09be388394"
+    },
+    "customerName": "Mufront Technologies",
+    "companyName": "Sagar Londge ( Accounts ) Dipti Madam",
+    "mobileNo": "8799958519 / 8799958514",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66446381624ffa09be3883bd"
+    },
+    "customerName": "Swaraj Narrow Fabrics",
+    "companyName": "Ranjana Patil ",
+    "mobileNo": "9822015693",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66458eb0624ffa09be3883e6"
+    },
+    "customerName": "G M Designing",
+    "companyName": "Prashant Gatkal",
+    "mobileNo": "9822198893",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "664c9269897c58705099f1f7"
+    },
+    "customerName": "Rajendra Apte",
+    "companyName": "Logic Systems",
+    "mobileNo": "9422559242",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "664c92be897c58705099f202"
+    },
+    "customerName": "Hemangini Shinde",
+    "companyName": "Arch.Kunal Shinde",
+    "mobileNo": "8329415309",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "664daaac897c58705099f2c1"
+    },
+    "customerName": "Aryan Aerospace",
+    "companyName": "Ram Chadda Sir ",
+    "mobileNo": "9225113309",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66504077897c58705099f302"
+    },
+    "customerName": "KingClub",
+    "companyName": "Rahul Pagar ",
+    "mobileNo": "8308585277",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6655845e4531e207005d0b33"
+    },
+    "customerName": "Atiti Kagane",
+    "companyName": "Logic Systems",
+    "mobileNo": "8177832120",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6656c7ce7adbb9c07690e87f"
+    },
+    "customerName": "Devidas Patangale",
+    "companyName": "Logic Systems",
+    "mobileNo": "9422988753 / 9028780906",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6656c8ec7adbb9c07690e892"
+    },
+    "customerName": "Shamala Electro-Platers",
+    "companyName": "Vinayak Gokhale",
+    "mobileNo": "9822023435",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "665d59ac9ab3c95833b92414"
+    },
+    "customerName": "Mihika Pandit",
+    "companyName": "SHALAKA HOME",
+    "mobileNo": "9561144552",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6660482b58f93f8408da8bfb"
+    },
+    "customerName": "Rasik Bothara",
+    "companyName": "Logic Systems",
+    "mobileNo": "7028791555",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6668114924a629f2d097bab9"
+    },
+    "customerName": "Ajay Kamat",
+    "companyName": "Dhananjay Zankar",
+    "mobileNo": "9822753337",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6668120c24a629f2d097bad4"
+    },
+    "customerName": "Bhakti Engg",
+    "companyName": "Mayuresh Atre",
+    "mobileNo": "9604175715",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6668337a24a629f2d097bae9"
+    },
+    "customerName": "Mukund Karadkhedkar",
+    "companyName": "Logic Systems",
+    "mobileNo": "8390639669",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "666952dc24a629f2d097bb2a"
+    },
+    "customerName": "Komal Mind",
+    "companyName": "C.A Pramod Dixit",
+    "mobileNo": "8459060774",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "666e71ee1bed2df39ae17b68"
+    },
+    "customerName": "Mandar Oltikar",
+    "companyName": "Gayatri mam",
+    "mobileNo": "9225131451",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "666ed0d31bed2df39ae17bf1"
+    },
+    "customerName": "Saudagar Teethcare",
+    "companyName": "Dr.Milind Saudagar",
+    "mobileNo": "9822478543 / Jyoti - 7249522863",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "666ed0d71bed2df39ae17bf4"
+    },
+    "customerName": "Saudagar Teethcare",
+    "companyName": "Dr.Milind Saudagar",
+    "mobileNo": "9822478543 / Jyoti - 7249522863",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "666fd2f91bed2df39ae17c03"
+    },
+    "customerName": "Amreen ",
+    "companyName": "Anand Katgaonkar",
+    "mobileNo": "8879270477",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "667155731bed2df39ae17c56"
+    },
+    "customerName": "VIKRAM AHER",
+    "companyName": "Logic Systems",
+    "mobileNo": "8888818524",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6672b7d8c810b44388e87e6c"
+    },
+    "customerName": "Gitali Joshi",
+    "companyName": "Logic Systems",
+    "mobileNo": "7745071939",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6673f538c810b44388e87eb3"
+    },
+    "customerName": "Kalayani Bhave",
+    "companyName": "Padmavati Cater",
+    "mobileNo": "9423177034",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "667bd829cdbfc0ae8509a8ca"
+    },
+    "customerName": "Arch. Kunal Shinde",
+    "companyName": "Logic Systems",
+    "mobileNo": "8888803322",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66828e8002e4bbd6261e3960"
+    },
+    "customerName": "shree",
+    "companyName": "shreedatta industry",
+    "mobileNo": "9850647722",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6683c5739e344410a39a945e"
+    },
+    "customerName": "Sonali pawar",
+    "companyName": "Jaynix engineering",
+    "mobileNo": "9023721232",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6683c5769e344410a39a9460"
+    },
+    "customerName": "Sonali pawar",
+    "companyName": "Jaynix engineering",
+    "mobileNo": "9023721232",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66b083e2081471242855febb"
+    },
+    "customerName": "Gogate Electro",
+    "companyName": "Ashish Bhanose ",
+    "mobileNo": "9850647722",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66b085d9081471242855fed6"
+    },
+    "customerName": "renuka savaji",
+    "companyName": "sunbeam",
+    "mobileNo": "9158966681",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66b48b3491375c44642c42e4"
+    },
+    "customerName": "Vinayak Agashe",
+    "companyName": "Logic Systems",
+    "mobileNo": "9423553457",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66b89b35c9aefe47140623d2"
+    },
+    "customerName": "SANKET PATIL",
+    "companyName": "HOME USER",
+    "mobileNo": "7558387853",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66b89b37c9aefe47140623d5"
+    },
+    "customerName": "SANKET PATIL",
+    "companyName": "HOME USER",
+    "mobileNo": "7558387853",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "670636a34ed3596a4068080e"
+    },
+    "customerName": "Trimbak Rubber",
+    "companyName": "Sachin Khairnar",
+    "mobileNo": "9130034470",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "670636a64ed3596a40680811"
+    },
+    "customerName": "Trimbak Rubber",
+    "companyName": "Sachin Khairnar",
+    "mobileNo": "9130034470",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "670637274ed3596a40680866"
+    },
+    "customerName": "Sachin Khairnar",
+    "companyName": "SINNER Trimbak rubber",
+    "mobileNo": "9130034470",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "670637294ed3596a40680869"
+    },
+    "customerName": "Sachin Khairnar",
+    "companyName": "SINNER Trimbak rubber",
+    "mobileNo": "9130034470",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "670637344ed3596a4068086c"
+    },
+    "customerName": "Sachin Khairnar",
+    "companyName": "SINNER Trimbak rubber",
+    "mobileNo": "9130034470",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "671dd72f88d3b927b0d753a0"
+    },
+    "customerName": "MANDAR GOKARN",
+    "companyName": "SANJAY TOOLS ",
+    "mobileNo": "9822033400",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67d2ab083a5790256edf6e46"
+    },
+    "customerName": "Trambak Rubber Sinner",
+    "companyName": "Sachin Khairnar",
+    "mobileNo": "9130034470",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67d2ab093a5790256edf6e49"
+    },
+    "customerName": "Trambak Rubber Sinner",
+    "companyName": "Sachin Khairnar",
+    "mobileNo": "9130034470",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67d2ab0e3a5790256edf6e58"
+    },
+    "customerName": "Trambak Rubber Sinner",
+    "companyName": "Sachin Khairnar",
+    "mobileNo": "9130034470",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "685ba0942f4d2e90e9119df4"
+    },
+    "customerName": "Prasad Part finishars",
+    "companyName": "Pramod Deshmukh",
+    "mobileNo": "8793327924",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "685ba0962f4d2e90e9119df7"
+    },
+    "customerName": "Prasad Part finishars",
+    "companyName": "Pramod Deshmukh",
+    "mobileNo": "8793327924",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "685ba09b2f4d2e90e9119dfa"
+    },
+    "customerName": "Prasad Part finishars",
+    "companyName": "Pramod Deshmukh",
+    "mobileNo": "8793327924",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "685ba0fa2f4d2e90e9119e01"
+    },
+    "customerName": "Prasad Part finishars",
+    "companyName": "Pramod Deshmukh",
+    "mobileNo": "8793327924",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "685ba25b2f4d2e90e9119e1a"
+    },
+    "customerName": "Sidharth Patwardhan",
+    "companyName": "Prabhanajan Sir",
+    "mobileNo": "9822045806",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "685ba3132f4d2e90e9119e2d"
+    },
+    "customerName": "Sidharth Patwardhan",
+    "companyName": "Prabhanajan Sir",
+    "mobileNo": "9822045806",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6867a1f3e30f650dcf1284de"
+    },
+    "customerName": "Dr.Anandi Sathe",
+    "companyName": "Dr.Anandi Sathe",
+    "mobileNo": "8975394110",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "686a057a3e120f72dba09f52"
+    },
+    "customerName": "Panva Engg",
+    "companyName": "Ajinkya Joshi",
+    "mobileNo": "8378986283",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "686a057e3e120f72dba09f55"
+    },
+    "customerName": "Panva Engg",
+    "companyName": "Ajinkya Joshi",
+    "mobileNo": "8378986283",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "686a3f423e120f72dba09f9e"
+    },
+    "customerName": "Prajwal Pawar",
+    "companyName": "Prajwal Pawar",
+    "mobileNo": "9699726292",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6877a3966b302deb2dcdf579"
+    },
+    "customerName": "KIRAN AUDIO VEDIO",
+    "companyName": "Kiran Audio Video",
+    "mobileNo": "8888818521",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "692c219ed040416ad39ffce2"
+    },
+    "customerName": "Guruji Hosptial",
+    "companyName": "Guruji Hospital",
+    "mobileNo": "8657037956",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "695108c2386bbf5bb059c5bb"
+    },
+    "customerName": "Nikhil Bhamre",
+    "companyName": "Nikhil Bhamre",
+    "mobileNo": "9225723585",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "69b8e395dbfc7e46be1decce"
+    },
+    "customerName": "Dhanesh Joshi",
+    "companyName": "Dhanesh Joshi",
+    "mobileNo": "9021327901",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "69b8e39cdbfc7e46be1decd1"
+    },
+    "customerName": "Dhanesh Joshi",
+    "companyName": "Dhanesh Joshi",
+    "mobileNo": "9021327901",
+    "__v": 0
+  }
+]

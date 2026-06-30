@@ -1,0 +1,181 @@
+// Logic CRM — unified MongoDB schema (Prisma 7).
+// Replaces the legacy two-database setup (crm + jobData) with one DB.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+// ──────────────────────────── Enums ────────────────────────────
+
+enum Role {
+  ADMIN
+  SALES_ADMIN
+  USER
+}
+
+enum CallStatus {
+  UNALLOCATED
+  IN_PROGRESS
+  COMPLETED
+}
+
+enum AmcFrequency {
+  DAILY
+  WEEKLY
+  MONTHLY
+  QUARTERLY
+}
+
+enum JobStatus {
+  PENDING
+  IN_PROGRESS
+  READY
+  DELIVERED
+}
+
+// ────────────────────────── Embedded types ──────────────────────────
+
+type ContactPerson {
+  name   String
+  email  String?
+  mobile String[]
+}
+
+type AmcSchedule {
+  frequency      AmcFrequency
+  dayOfWeek      Int? // 0 (Sun) – 6 (Sat)
+  weekOfMonth    Int? // 1 – 4
+  monthOfQuarter Int? // 1 – 3
+  employeeId     String? @db.ObjectId
+}
+
+type CallAction {
+  actionTaken   String
+  actionStarted DateTime
+  employeeId    String   @db.ObjectId
+}
+
+// ──────────────────────────── Models ────────────────────────────
+
+model User {
+  id        String    @id @default(auto()) @map("_id") @db.ObjectId
+  name      String
+  email     String    @unique
+  password  String
+  dob       DateTime?
+  mobileNo  String[]
+  role      Role      @default(USER)
+  disabled  Boolean   @default(false)
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  assignedCalls   Call[] @relation("AssignedEmployee")
+  registeredCalls Call[] @relation("RegisteredBy")
+
+  @@index([disabled])
+}
+
+model Company {
+  id            String          @id @default(auto()) @map("_id") @db.ObjectId
+  name          String          @unique
+  contactPerson ContactPerson[]
+  streetAddress String
+  city          String
+  state         String
+  pincode       String
+  hasAmc        Boolean         @default(false)
+  amc           AmcSchedule[]
+  weeklyOff     String[]
+  createdAt     DateTime        @default(now())
+  updatedAt     DateTime        @updatedAt
+
+  calls Call[]
+
+  @@index([city])
+}
+
+model Call {
+  // Human-facing ticket number, fixed-width "YYYYMMDDNN" (sortable as string).
+  ticketNo String @unique
+
+  id                 String       @id @default(auto()) @map("_id") @db.ObjectId
+  streetAddress      String
+  city               String
+  state              String
+  pincode            String
+  callDescription    String?
+  contactPerson      String?
+  companyId          String?      @db.ObjectId
+  company            Company?     @relation(fields: [companyId], references: [id])
+  email              String?
+  mobile             String[]
+  assignedEmployeeId String       @db.ObjectId
+  assignedEmployee   User         @relation("AssignedEmployee", fields: [assignedEmployeeId], references: [id])
+  registeredById     String       @db.ObjectId
+  registeredBy       User         @relation("RegisteredBy", fields: [registeredById], references: [id])
+  status             CallStatus   @default(UNALLOCATED)
+  startDate          DateTime
+  endDate            DateTime?
+  startAction        DateTime?
+  problemType        String
+  expClosure         DateTime
+  actions            CallAction[]
+  isSales            Boolean      @default(false)
+  createdAt          DateTime     @default(now())
+  updatedAt          DateTime     @updatedAt
+
+  @@index([assignedEmployeeId])
+  @@index([companyId])
+  @@index([isSales, status])
+  @@index([status])
+}
+
+model JobCard {
+  id            String    @id @default(auto()) @map("_id") @db.ObjectId
+  jobNo         String    @unique
+  date          DateTime  @default(now())
+  customerName  String
+  companyName   String?
+  mobileNo      String?
+  material      String?
+  accessories   String[]
+  brand         String?
+  modelNo       String?
+  srNo          String?
+  password      String?
+  problem       String?
+  estimate      String?
+  receivedBy    String?
+  repairedBy    String?
+  remark        String?
+  currentStatus String?
+  status        JobStatus @default(PENDING)
+  done          Boolean   @default(false)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  @@index([done, createdAt])
+  @@index([customerName])
+}
+
+// Lightweight customer directory for the job-card typeahead.
+model JobCardCustomer {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  customerName String
+  companyName  String?
+  mobileNo     String?
+  createdAt    DateTime @default(now())
+
+  @@index([customerName])
+}
+
+// Atomic sequence counters (e.g. "call:20260630", "jobcard").
+model Counter {
+  id  String @id @map("_id")
+  seq Int    @default(0)
+}

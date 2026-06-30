@@ -1,0 +1,460 @@
+[
+  {
+    "_id": {
+      "$oid": "62750d505a444c5acfbcb9ea"
+    },
+    "name": "Vedavrat Patwardhan",
+    "email": "vedavratpp@gmail.com",
+    "password": "$2b$10$lF4Q6bhIfDGHrpv9EhwK6.aB1rzAS7sL2/6vV9RRSn/G7VYgsmQne",
+    "dob": "10-10-2000",
+    "mobileNo": [
+      "9922627157"
+    ],
+    "auth": "admin",
+    "__v": 0,
+    "disabled": false
+  },
+  {
+    "_id": {
+      "$oid": "62756c04c785a02b5cacbdb8"
+    },
+    "name": "Gaurav Karmase",
+    "email": "gaurav.logicnsk@gmail.com",
+    "password": "$2b$10$PSOcm1upNy6muk3WTriZfuSLIQUPCvwlu1zP2IfFgrV.til/kCwdy",
+    "dob": "21-10-1989",
+    "mobileNo": [
+      "8888818522"
+    ],
+    "auth": "user",
+    "__v": 0,
+    "disabled": false
+  },
+  {
+    "_id": {
+      "$oid": "62756ca1c785a02b5cacbdbc"
+    },
+    "name": "Kiran Hude",
+    "email": "kiran.logicnsk@gmail.com",
+    "password": "$2b$10$GlCXJKLKrh1JwZHcPOZiUegfGAoRYsNUAOiXki13iYdpg.plDCVwi",
+    "dob": "19-10-1988",
+    "mobileNo": [
+      "7722000498"
+    ],
+    "auth": "sales admin",
+    "__v": 0,
+    "disabled": false
+  },
+  {
+    "_id": {
+      "$oid": "62756d30c785a02b5cacbdc0"
+    },
+    "name": "Pooja Bramhane",
+    "email": "pooja.logicnsk@gmail.com",
+    "password": "$2b$10$4IWOIDw3M2OtbMr0vBrP5OjbqesagW.WUWAlxPUqK26FChGPvDexG",
+    "dob": "24-05-1993",
+    "mobileNo": [
+      "8888818523"
+    ],
+    "auth": "admin",
+    "__v": 0,
+    "isActive": true,
+    "disabled": true
+  },
+  {
+    "_id": {
+      "$oid": "62756d69c785a02b5cacbdc3"
+    },
+    "name": "Chetan Bhat",
+    "email": "chetan@logicnsk.com",
+    "password": "$2b$10$ID9IxuNiKT/tXi4XXIAfeOzTvejVcFCTRYKy2tgrCJl6hdYkFCBem",
+    "dob": "22-12-1972",
+    "mobileNo": [
+      "9822033400"
+    ],
+    "auth": "admin",
+    "__v": 0,
+    "disabled": false
+  },
+  {
+    "_id": {
+      "$oid": "62756dbbc785a02b5cacbdc6"
+    },
+    "name": "Ganesh Jagtap",
+    "email": "ganesh.logicnsk@gmail.com",
+    "password": "$2b$10$8BXTaNIrqGJanT094VX8P.e1KvCqjb.NLfQuL73Ag1TniJRaM.mCa",
+    "dob": "Sat Jan 06 1990",
+    "mobileNo": [
+      "8888800392"
+    ],
+    "auth": "user",
+    "__v": 0,
+    "isActive": true,
+    "disabled": false
+  },
+  {
+    "_id": {
+      "$oid": "62756df3c785a02b5cacbdca"
+    },
+    "name": "Rajesh Vishwakarma",
+    "email": "rajesh.logicnsk@gmail.com",
+    "password": "$2b$10$8vfqN3I2Jc12GPEauyjuMewAvKiQ9hqcB2B/i5nDwzPvLFkK9zgK6",
+    "dob": "04-03-1993",
+    "mobileNo": [
+      "8888818525"
+    ],
+    "auth": "user",
+    "__v": 0,
+    "isActive": true,
+    "disabled": true
+  },
+  {
+    "_id": {
+      "$oid": "62756e53c785a02b5cacbdce"
+    },
+    "name": "Pravin Shinde",
+    "email": "pravin.logicnsk@gmail.com",
+    "password": "$2b$10$f/prHoE0rwM4a1jBBBqAf.HsHS3JEBi1T1II6BUiHgISxZ33tRToW",
+    "dob": "24-10-1998",
+    "mobileNo": [
+      "8888818521"
+    ],
+    "auth": "user",
+    "__v": 0,
+    "disabled": false
+  },
+  {
+    "_id": {
+      "$oid": "62756e88c785a02b5cacbdd2"
+    },
+    "name": "Sachin Khairnar",
+    "email": "sachin.logicnsk@gmail.com",
+    "password": "$2b$10$FUw/wluPpRzWl09O51WWV.SF38bLzXw/STTpaYXFai/7xXpwOybgy",
+    "dob": "Thu Jul 08 1982",
+    "mobileNo": [
+      "9130034470"
+    ],
+    "auth": "admin",
+    "__v": 0,
+    "disabled": false
+  },
+  {
+    "_id": {
+      "$oid": "62756eb2c785a02b5cacbdd6"
+    },
+    "name": "Deepak Hude",
+    "email": "deepak.logicnsk@gmail.com",
+    "password": "$2b$10$Ocsq/r0dH8HlrN1SWLoxSe3n6A6MosK9WG0nXeyM2C3xp3qbyKf0i",
+    "dob": "10-03-1986",
+    "mobileNo": [
+      "8888800392"
+    ],
+    "auth": "user",
+    "__v": 0,
+    "isActive": true,
+    "disabled": true
+  },
+  {
+    "_id": {
+      "$oid": "62756f81f05f1f54d235158f"
+    },
+    "name": "Desk User",
+    "email": "deskuser.logicnsk@gmail.com",
+    "password": "$2b$10$statHpIKV08buRB7A3Cc1.xw0dY4tlxiFAvN4Whh7zJt4FRpMG.OO",
+    "dob": "0-0-0000",
+    "mobileNo": [
+      ""
+    ],
+    "auth": "admin",
+    "__v": 0,
+    "disabled": false
+  },
+  {
+    "_id": {
+      "$oid": "62756fc9f1b4028faf6ccff9"
+    },
+    "name": "Reception",
+    "email": "reception.logicnsk@gmail.com",
+    "password": "$2b$10$wH8bA9NzEPN0bWGDL11Phuws2ivjIB71wsp.tRg2ygCXPGPQ/BHe2",
+    "dob": "0-0-0000",
+    "mobileNo": [
+      ""
+    ],
+    "auth": "admin",
+    "__v": 0,
+    "disabled": false
+  },
+  {
+    "_id": {
+      "$oid": "62757008f1b4028faf6ccffb"
+    },
+    "name": "Yogesh Kshirsagar",
+    "email": "yogeshk.logicnsk@gmail.com",
+    "password": "$2b$10$r.ZuNkrAtL.hjItti2RJ4eddhvhWcAteXhaMiKNr.gnUrbhtWzsmq",
+    "dob": "30-06-1992",
+    "mobileNo": [
+      "8888855747"
+    ],
+    "auth": "user",
+    "__v": 0,
+    "disabled": true
+  },
+  {
+    "_id": {
+      "$oid": "6275702df1b4028faf6ccffe"
+    },
+    "name": "Prathmesh Joshi",
+    "email": "prathmesh.logicnsk@gmail.com",
+    "password": "$2b$10$PAAOZ0gnr82A1v4eGNc1.OZcO0YUKHP.fqRQxw7eah2vhWHNM0nhK",
+    "dob": "23-08-1990",
+    "mobileNo": [
+      "9130090852"
+    ],
+    "auth": "user",
+    "__v": 0,
+    "disabled": false
+  },
+  {
+    "_id": {
+      "$oid": "62757053f1b4028faf6cd001"
+    },
+    "name": "Swapnil Kulkarni",
+    "email": "swapnil.logicnsk@gmail.com",
+    "password": "$2b$10$FuuqKk2S52Fct6wSXBfXEuTtDYMx7AwBhtuAi6LCkY4miSb9GKFaW",
+    "dob": "03-03-1984",
+    "mobileNo": [
+      "9130090851"
+    ],
+    "auth": "user",
+    "__v": 0,
+    "disabled": false
+  },
+  {
+    "_id": {
+      "$oid": "6275707cf1b4028faf6cd004"
+    },
+    "name": "Swapnil Jagtap",
+    "email": "swapnilj.logicnsk@gmail.com",
+    "password": "$2b$10$y2DihOP58S.UUQV3sTLbLeH8Vzi7Wel9VrYqSgUJXJAf.0yWC7l12",
+    "dob": "07-02-1989",
+    "mobileNo": [
+      "9130000437"
+    ],
+    "auth": "user",
+    "__v": 0,
+    "disabled": true
+  },
+  {
+    "_id": {
+      "$oid": "627570d7f1b4028faf6cd009"
+    },
+    "name": "Sandeep Bhavsar",
+    "email": "sandip1.logicnsk@gmail.com",
+    "password": "$2b$10$l0gFS8TE37C4Di.npQPdYOATT9bUGpHWeQXxambfaPp7LCrNxPe8i",
+    "dob": "06-06-1992",
+    "mobileNo": [
+      "8888800392"
+    ],
+    "auth": "user",
+    "__v": 0,
+    "disabled": false
+  },
+  {
+    "_id": {
+      "$oid": "62757146f1b4028faf6cd00f"
+    },
+    "name": "Avinash Sonawane",
+    "email": "avinash.logicnsk@gmail.com",
+    "password": "$2b$10$yHg.zN/l/imr572I9wMIiOUnDmUaklI2UmZeyOR8K18TRPQTkM3xe",
+    "dob": "Sun Nov 11 1990",
+    "mobileNo": [
+      "8888818523"
+    ],
+    "auth": "user",
+    "__v": 0,
+    "disabled": false
+  },
+  {
+    "_id": {
+      "$oid": "627571b5f1b4028faf6cd012"
+    },
+    "name": "Gayatri Oltikar",
+    "email": "gayatrioltikar123@gmail.com",
+    "password": "$2b$10$J0jpPky6uxUw1UHBLNloIucilTIr.k4th0Jre2oe8AACmFFtkN7Hi",
+    "dob": "19-09-1976",
+    "mobileNo": [
+      "9225131451"
+    ],
+    "auth": "user",
+    "__v": 0,
+    "disabled": true
+  },
+  {
+    "_id": {
+      "$oid": "627573d6f1b4028faf6cd01e"
+    },
+    "name": "Madhav Bhat",
+    "email": "madhav@logicnsk.com",
+    "password": "$2b$10$hkzy0w1nASdnhflpr6vaLufUNqBT6PbR4s3ALkBxbfpwXTzDRpo26",
+    "dob": "14-09-1970",
+    "mobileNo": [
+      "9822054443"
+    ],
+    "auth": "admin",
+    "__v": 0,
+    "disabled": false
+  },
+  {
+    "_id": {
+      "$oid": "62756eeec785a02b5cacbdda"
+    },
+    "name": "Deepali Patwardhan",
+    "email": "deepali@logicsys.in",
+    "password": "$2b$10$sISsy6qLOUfuaa/CS0DbE.0L13uroHwkyMd/O3AjGoFdnurajn.ha",
+    "dob": "Tue Oct 29 1974",
+    "mobileNo": [
+      "9850127996"
+    ],
+    "auth": "admin",
+    "__v": 0,
+    "disabled": false
+  },
+  {
+    "_id": {
+      "$oid": "627570a4f1b4028faf6cd007"
+    },
+    "name": "Prabhanjan Patwardhan",
+    "email": "prabhanjan@logicnsk.com",
+    "password": "$2b$10$aE0TvUiDbk.Rj8DCJDExz.vDTzLutyQwYSOjCMLNhzxP2rOMGvCsS",
+    "dob": "Sat Sep 23 1972",
+    "mobileNo": [
+      "9822045806"
+    ],
+    "auth": "sales admin",
+    "isActive": true,
+    "__v": 0,
+    "disabled": false
+  },
+  {
+    "_id": {
+      "$oid": "64ae5db172406fb69639bbbc"
+    },
+    "name": "Vikram Aher",
+    "email": "vikram.logicnsk@gmail.com",
+    "password": "$2b$10$I9lxXGLHV0X1U1cgD2A9Uu3EavyqPv7B1IiJ52Q/QzFbryWnkYtw6",
+    "dob": "Tue May 22 1984",
+    "mobileNo": [
+      "8468980518"
+    ],
+    "auth": "user",
+    "isActive": true,
+    "__v": 0,
+    "disabled": false
+  },
+  {
+    "_id": {
+      "$oid": "65e412be1ef009b23acd8375"
+    },
+    "name": "Sanjeev Chauhan",
+    "email": "sanjeev.logicnsk@gmail.com",
+    "password": "$2b$10$n6shjfnhnq5yBG/jVcGMp.TKXIJFvbd7hPjJAAqtLD9.DkNtPo1L6",
+    "dob": "Thu Aug 09 2001",
+    "mobileNo": [
+      "8178166537"
+    ],
+    "auth": "user",
+    "isActive": true,
+    "__v": 0,
+    "disabled": false
+  },
+  {
+    "_id": {
+      "$oid": "65e569511ef009b23acd93f9"
+    },
+    "name": "Vishvesh Bhat",
+    "email": "vishvesh.logicnsk@gmail.com",
+    "password": "$2b$10$ZPDKmdljR1NaU5gUgpxWiOE4UmDH.45Js5ctY5JU2l7EI7X8jCFN6",
+    "dob": "Sun Aug 23 1998",
+    "mobileNo": [
+      "8830698862"
+    ],
+    "auth": "user",
+    "isActive": true,
+    "__v": 0,
+    "disabled": false
+  },
+  {
+    "_id": {
+      "$oid": "66a1ef0bcb3b646a2b8ce3b4"
+    },
+    "name": "Shubham Jadhav",
+    "email": "shubham.logicnsk@gmail.com",
+    "password": "$2b$10$GNiNDl6hTPUULbZ1Io6ZSeyA76u1BqxPhYA5fMHG48YzQ4JC.osQS",
+    "dob": "Mon Oct 26 1998",
+    "mobileNo": [
+      "8888855747"
+    ],
+    "auth": "user",
+    "disabled": false,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6a22a1967642c43c54a53e25"
+    },
+    "name": "Harshala Gite",
+    "email": "harshala.logicnsk@gmail.com",
+    "password": "$2b$10$JOZuTZIAlgBZS53weNQdzeRPTO6VHEpk4WDeljmAO0CwTOV8xrrqK",
+    "dob": "Sat Jun 15 1991",
+    "mobileNo": [
+      "9130000437"
+    ],
+    "auth": "user",
+    "disabled": false,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6a22a32f7642c43c54a53e5b"
+    },
+    "name": "Swapnil Jagtap",
+    "email": "swapnil.j.logicnsk@gmail.com",
+    "password": "$2b$10$PbfvqiGLDX6JRijPTe2QPuGtIhzT6tmdzNyWFywmM9PTPX/X/N7LS",
+    "dob": "Tue Feb 07 1989",
+    "mobileNo": [
+      "9175506625"
+    ],
+    "auth": "user",
+    "disabled": false,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6a22affa7642c43c54a53f19"
+    },
+    "name": "Neha Londhe",
+    "email": "neha.logicnsk@gmail.com",
+    "password": "$2b$10$UGtZfHNBdag9eAE6./hAfuyrNRfwUPe6.aLS..Ef5GjSvXvJXCpjS",
+    "dob": "Wed Sep 20 2006",
+    "mobileNo": [
+      "8530344796"
+    ],
+    "auth": "user",
+    "disabled": false,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6a22b1157642c43c54a53f3b"
+    },
+    "name": "Pooja Patil",
+    "email": "pooja.p.logicnsk@gmail.com",
+    "password": "$2b$10$egCLNd.bUi.WTTQcA68I1uOsN6cWbvmCRwHwrpgD5AHYg5CaK99hy",
+    "dob": "Tue Aug 25 1998",
+    "mobileNo": [
+      "9325458364"
+    ],
+    "auth": "user",
+    "disabled": false,
+    "__v": 0
+  }
+]
