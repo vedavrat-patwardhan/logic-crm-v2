@@ -18,11 +18,22 @@ import { visibleSections } from "./nav-config";
 export function CommandPalette({ role }: { role: Role }) {
   const router = useRouter();
   const [open, setOpen] = React.useState(false);
+  const [isMac, setIsMac] = React.useState(true);
   const sections = React.useMemo(() => visibleSections(role), [role]);
+
+  // Detect platform on the client to show the correct shortcut hint.
+  React.useEffect(() => {
+    const platform =
+      (navigator as Navigator & { userAgentData?: { platform?: string } })
+        .userAgentData?.platform ||
+      navigator.platform ||
+      "";
+    setIsMac(/mac|iphone|ipad|ipod/i.test(platform));
+  }, []);
 
   React.useEffect(() => {
     const down = (e: KeyboardEvent) => {
-      if ((e.key === "k" && (e.metaKey || e.ctrlKey)) || e.key === "/") {
+      if ((e.key.toLowerCase() === "k" && (e.metaKey || e.ctrlKey)) || e.key === "/") {
         if (
           e.key === "/" &&
           ["INPUT", "TEXTAREA"].includes(
@@ -52,7 +63,7 @@ export function CommandPalette({ role }: { role: Role }) {
         <Search className="size-4" />
         <span className="flex-1 text-left">Search…</span>
         <kbd className="pointer-events-none hidden select-none rounded border bg-muted px-1.5 font-mono text-[10px] font-medium sm:inline-block">
-          ⌘K
+          {isMac ? "⌘K" : "Ctrl K"}
         </kbd>
       </button>
 
