@@ -32,6 +32,10 @@ export function ActionDialog({
 }) {
   const utils = trpc.useUtils();
   const userOptions = trpc.user.options.useQuery(undefined, { enabled: open });
+  const call = trpc.calls.byId.useQuery(
+    { id: callId! },
+    { enabled: open && !!callId },
+  );
   const [employeeId, setEmployeeId] = React.useState<string | null>(null);
   const [actionTaken, setActionTaken] = React.useState("");
   const [complete, setComplete] = React.useState(false);
@@ -79,6 +83,29 @@ export function ActionDialog({
         </DialogHeader>
 
         <div className="space-y-4">
+          {call.data ? (
+            <div className="space-y-1.5 rounded-lg border bg-muted/40 p-3">
+              <div className="flex items-center justify-between gap-2">
+                <span className="font-mono text-xs font-medium">
+                  {call.data.ticketNo}
+                </span>
+                <span className="truncate text-xs text-muted-foreground">
+                  {call.data.company?.name ??
+                    call.data.contactPerson ??
+                    call.data.problemType}
+                </span>
+              </div>
+              <div>
+                <p className="text-[11px] font-medium text-muted-foreground">
+                  Call description
+                </p>
+                <p className="text-sm leading-relaxed">
+                  {call.data.callDescription?.trim() || "No description provided."}
+                </p>
+              </div>
+            </div>
+          ) : null}
+
           <div className="space-y-2">
             <Label>Forward to / handled by</Label>
             <Combobox
