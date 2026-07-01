@@ -1,6 +1,7 @@
 "use client";
 
 import * as React from "react";
+import { keepPreviousData } from "@tanstack/react-query";
 import type { Role } from "@prisma/client";
 import {
   Plus,
@@ -10,6 +11,7 @@ import {
   MessageSquarePlus,
   Trash2,
   CalendarClock,
+  Loader2,
 } from "lucide-react";
 import { toast } from "sonner";
 
@@ -86,14 +88,17 @@ export function CallsView({
 
   React.useEffect(() => setPage(1), [debounced, days, includeCompleted, pageSize]);
 
-  const list = trpc.calls.list.useQuery({
-    kind,
-    page,
-    pageSize,
-    search: debounced,
-    includeCompleted,
-    ...(days !== "all" ? { days: Number(days) } : {}),
-  });
+  const list = trpc.calls.list.useQuery(
+    {
+      kind,
+      page,
+      pageSize,
+      search: debounced,
+      includeCompleted,
+      ...(days !== "all" ? { days: Number(days) } : {}),
+    },
+    { placeholderData: keepPreviousData },
+  );
 
   const removeMut = trpc.calls.remove.useMutation();
   const isElevated = role !== "USER";
@@ -164,6 +169,9 @@ export function CallsView({
           ) : undefined
         }
       >
+        {list.isFetching && !list.isLoading && (
+          <Loader2 className="size-4 shrink-0 animate-spin text-muted-foreground" />
+        )}
         {canDateFilter && (
           <Select value={days} onValueChange={setDays}>
             <SelectTrigger className="w-[150px]" size="sm">

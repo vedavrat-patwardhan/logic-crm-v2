@@ -72,17 +72,37 @@ export const callRouter = router({
 
       if (input.search) {
         const s = input.search;
-        where.OR = [
+        const or: Prisma.CallWhereInput[] = [
           { ticketNo: { contains: s, mode: "insensitive" } },
           { problemType: { contains: s, mode: "insensitive" } },
           { contactPerson: { contains: s, mode: "insensitive" } },
-          { company: { is: { name: { contains: s, mode: "insensitive" } } } },
-          {
-            assignedEmployee: {
-              is: { name: { contains: s, mode: "insensitive" } },
-            },
-          },
         ];
+
+        // Resolve name matches against the small company/user collections first,
+        // then match calls by the indexed companyId / assignedEmployeeId. This
+        // avoids scanning 25k calls with a joined relation regex on every query.
+        if (!/^\d+$/.test(s)) {
+          const [companies, users] = await Promise.all([
+            ctx.prisma.company.findMany({
+              where: { name: { contains: s, mode: "insensitive" } },
+              select: { id: true },
+              take: 100,
+            }),
+            ctx.prisma.user.findMany({
+              where: { name: { contains: s, mode: "insensitive" } },
+              select: { id: true },
+              take: 100,
+            }),
+          ]);
+          if (companies.length)
+            or.push({ companyId: { in: companies.map((c) => c.id) } });
+          if (users.length)
+            or.push({
+              assignedEmployeeId: { in: users.map((u) => u.id) },
+            });
+        }
+
+        where.OR = or;
       }
 
       const [rows, total] = await Promise.all([
