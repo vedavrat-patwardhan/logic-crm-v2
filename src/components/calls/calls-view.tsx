@@ -15,6 +15,7 @@ import { toast } from "sonner";
 
 import { trpc } from "@/trpc/react";
 import { useDebouncedValue } from "@/hooks/use-debounced-value";
+import { can } from "@/lib/permissions";
 import { formatDate } from "@/lib/format";
 import { PageHeader } from "@/components/app/page-header";
 import { EmptyState } from "@/components/app/empty-state";
@@ -98,6 +99,12 @@ export function CallsView({
   const isElevated = role !== "USER";
   const noun = kind === "sales" ? "Lead" : "Call";
 
+  const canCreate = can(role, "calls.create");
+  const canEdit = can(role, "calls.edit");
+  const canDelete = can(role, "calls.delete");
+  const canShowClosed = can(role, "calls.showClosed");
+  const canDateFilter = can(role, "calls.dateFilter");
+
   function openNew() {
     setEditId(null);
     setFormOpen(true);
@@ -132,10 +139,12 @@ export function CallsView({
             : "Track, assign and close service tickets."
         }
       >
-        <Button onClick={openNew}>
-          <Plus className="size-4" />
-          New {noun.toLowerCase()}
-        </Button>
+        {canCreate && (
+          <Button onClick={openNew}>
+            <Plus className="size-4" />
+            New {noun.toLowerCase()}
+          </Button>
+        )}
       </PageHeader>
 
       <ListToolbar
@@ -143,28 +152,32 @@ export function CallsView({
         onSearchChange={setSearch}
         searchPlaceholder="Search ticket, company, engineer…"
         right={
-          <Button
-            variant={includeCompleted ? "default" : "outline"}
-            onClick={() => setIncludeCompleted((v) => !v)}
-            size="sm"
-          >
-            {includeCompleted ? "Showing closed" : "Show closed"}
-          </Button>
+          canShowClosed ? (
+            <Button
+              variant={includeCompleted ? "default" : "outline"}
+              onClick={() => setIncludeCompleted((v) => !v)}
+              size="sm"
+            >
+              {includeCompleted ? "Showing closed" : "Show closed"}
+            </Button>
+          ) : undefined
         }
       >
-        <Select value={days} onValueChange={setDays}>
-          <SelectTrigger className="w-[150px]" size="sm">
-            <CalendarClock className="size-4" />
-            <SelectValue />
-          </SelectTrigger>
-          <SelectContent>
-            {DAY_FILTERS.map((d) => (
-              <SelectItem key={d.value} value={d.value}>
-                {d.label}
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
+        {canDateFilter && (
+          <Select value={days} onValueChange={setDays}>
+            <SelectTrigger className="w-[150px]" size="sm">
+              <CalendarClock className="size-4" />
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent>
+              {DAY_FILTERS.map((d) => (
+                <SelectItem key={d.value} value={d.value}>
+                  {d.label}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        )}
       </ListToolbar>
 
       <div className="rounded-xl border bg-card">
@@ -200,10 +213,12 @@ export function CallsView({
                       description="Try adjusting filters, or create a new one."
                       className="border-0"
                     >
-                      <Button onClick={openNew} variant="outline">
-                        <Plus className="size-4" />
-                        New {noun.toLowerCase()}
-                      </Button>
+                      {canCreate && (
+                        <Button onClick={openNew} variant="outline">
+                          <Plus className="size-4" />
+                          New {noun.toLowerCase()}
+                        </Button>
+                      )}
                     </EmptyState>
                   </TableCell>
                 </TableRow>
@@ -247,15 +262,17 @@ export function CallsView({
                             <Eye className="size-4" />
                             View
                           </DropdownMenuItem>
-                          <DropdownMenuItem onSelect={() => openEdit(c.id)}>
-                            <Pencil className="size-4" />
-                            Edit
-                          </DropdownMenuItem>
+                          {canEdit && (
+                            <DropdownMenuItem onSelect={() => openEdit(c.id)}>
+                              <Pencil className="size-4" />
+                              Edit
+                            </DropdownMenuItem>
+                          )}
                           <DropdownMenuItem onSelect={() => setActionId(c.id)}>
                             <MessageSquarePlus className="size-4" />
                             Add action
                           </DropdownMenuItem>
-                          {isElevated && (
+                          {canDelete && (
                             <>
                               <DropdownMenuSeparator />
                               <DropdownMenuItem

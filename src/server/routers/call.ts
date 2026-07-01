@@ -1,8 +1,18 @@
 import { z } from "zod";
 import { TRPCError } from "@trpc/server";
-import type { Prisma } from "@prisma/client";
-import { router, protectedProcedure, elevatedProcedure } from "../trpc";
+import type { Prisma, Role } from "@prisma/client";
+import { router, protectedProcedure } from "../trpc";
 import { nextTicketNo } from "../lib/sequences";
+import { can, type PermissionKey } from "../../lib/permissions";
+
+function assertCan(role: Role, key: PermissionKey) {
+  if (!can(role, key)) {
+    throw new TRPCError({
+      code: "FORBIDDEN",
+      message: "You don't have permission for this action.",
+    });
+  }
+}
 
 const callInput = {
   companyId: z.string().optional().nullable(),
@@ -168,6 +178,7 @@ export const callRouter = router({
   update: protectedProcedure
     .input(z.object({ id: z.string(), ...callInput }))
     .mutation(async ({ ctx, input }) => {
+      assertCan(ctx.user.role, "calls.edit");
       const { id, ...rest } = input;
       await ctx.prisma.call.update({
         where: { id },
@@ -225,9 +236,10 @@ export const callRouter = router({
       return { ok: true };
     }),
 
-  remove: elevatedProcedure
+  remove: protectedProcedure
     .input(z.object({ id: z.string() }))
     .mutation(async ({ ctx, input }) => {
+      assertCan(ctx.user.role, "calls.delete");
       await ctx.prisma.call.delete({ where: { id: input.id } });
       return { ok: true };
     }),
