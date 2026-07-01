@@ -183,8 +183,10 @@ model Counter {
 // Singleton application configuration (id is always "app").
 // permissions: role → permission → allowed overrides (see src/lib/permissions.ts)
 model AppSetting {
-  id          String   @id @map("_id")
-  permissions Json?
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+  id                String   @id @map("_id")
+  permissions       Json?
+  defaultAssigneeId String?  @db.ObjectId
+  dropdownOptions   Json?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
 }

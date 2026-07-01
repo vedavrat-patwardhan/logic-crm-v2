@@ -9,7 +9,7 @@ import { toast } from "sonner";
 import type { Role } from "@prisma/client";
 
 import { trpc } from "@/trpc/react";
-import { PROBLEM_TYPES, SALES_TYPES } from "@/lib/constants";
+import { useAppConfig } from "@/hooks/use-app-config";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -70,6 +70,8 @@ export function CallFormDialog({
   const utils = trpc.useUtils();
   const isEdit = !!editId;
   const isUser = role === "USER";
+  const { defaultAssigneeId, options } = useAppConfig();
+  const initialAssignee = isUser ? userId : defaultAssigneeId ?? "";
 
   const companyOptions = trpc.company.options.useQuery(undefined, {
     enabled: open,
@@ -91,7 +93,7 @@ export function CallFormDialog({
       city: "",
       state: "",
       pincode: "",
-      assignedEmployeeId: isUser ? userId : "",
+      assignedEmployeeId: initialAssignee,
       problemType: "",
       callDescription: "",
       startDate: toDateInput(new Date()),
@@ -129,7 +131,7 @@ export function CallFormDialog({
         city: "",
         state: "",
         pincode: "",
-        assignedEmployeeId: isUser ? userId : "",
+        assignedEmployeeId: initialAssignee,
         problemType: "",
         callDescription: "",
         startDate: toDateInput(new Date()),
@@ -137,7 +139,7 @@ export function CallFormDialog({
       });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [open, isEdit, existing.data]);
+  }, [open, isEdit, existing.data, initialAssignee]);
 
   // Auto-fill address/contact from selected company.
   async function onCompanyChange(companyId: string | null) {
@@ -197,9 +199,9 @@ export function CallFormDialog({
     }
   }
 
-  const problemOptions = (kind === "sales" ? SALES_TYPES : PROBLEM_TYPES).map(
-    (p) => ({ value: p, label: p }),
-  );
+  const problemOptions = options(
+    kind === "sales" ? "salesTypes" : "problemTypes",
+  ).map((p) => ({ value: p, label: p }));
   const noun = kind === "sales" ? "Lead" : "Call";
 
   return (

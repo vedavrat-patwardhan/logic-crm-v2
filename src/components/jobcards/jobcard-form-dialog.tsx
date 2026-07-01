@@ -9,12 +9,8 @@ import { toast } from "sonner";
 
 import { trpc } from "@/trpc/react";
 import { cn } from "@/lib/utils";
-import {
-  MATERIALS,
-  BRANDS,
-  ACCESSORIES,
-  JOB_STATUS_LABELS,
-} from "@/lib/constants";
+import { useAppConfig } from "@/hooks/use-app-config";
+import { JOB_STATUS_LABELS } from "@/lib/constants";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -106,6 +102,10 @@ export function JobCardFormDialog({
 }) {
   const utils = trpc.useUtils();
   const isEdit = !!editId;
+  const { options } = useAppConfig();
+  const materials = options("materials");
+  const brands = options("brands");
+  const accessories = options("accessories");
 
   const customers = trpc.jobcard.customers.useQuery(undefined, {
     enabled: open,
@@ -404,7 +404,7 @@ export function JobCardFormDialog({
                       </SelectTrigger>
                     </FormControl>
                     <SelectContent>
-                      {MATERIALS.map((m) => (
+                      {materials.map((m) => (
                         <SelectItem key={m} value={m}>
                           {m}
                         </SelectItem>
@@ -431,7 +431,7 @@ export function JobCardFormDialog({
                       </SelectTrigger>
                     </FormControl>
                     <SelectContent>
-                      {BRANDS.map((b) => (
+                      {brands.map((b) => (
                         <SelectItem key={b} value={b}>
                           {b}
                         </SelectItem>
@@ -499,7 +499,7 @@ export function JobCardFormDialog({
             <FormItem className="sm:col-span-2">
               <FormLabel>Accessories</FormLabel>
               <div className="flex flex-wrap gap-2">
-                {ACCESSORIES.map((item) => {
+                {accessories.map((item) => {
                   const active = selectedAccessories.includes(item);
                   return (
                     <Badge

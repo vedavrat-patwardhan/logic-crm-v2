@@ -5,7 +5,7 @@ import { Loader2 } from "lucide-react";
 import { toast } from "sonner";
 
 import { trpc } from "@/trpc/react";
-import { REMARKS } from "@/lib/constants";
+import { useAppConfig } from "@/hooks/use-app-config";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -31,6 +31,7 @@ export function ActionDialog({
   callId: string | null;
 }) {
   const utils = trpc.useUtils();
+  const { options } = useAppConfig();
   const userOptions = trpc.user.options.useQuery(undefined, { enabled: open });
   const call = trpc.calls.byId.useQuery(
     { id: callId! },
@@ -128,7 +129,7 @@ export function ActionDialog({
               placeholder="What was done?"
             />
             <div className="flex flex-wrap gap-1.5 pt-1">
-              {REMARKS.map((r) => (
+              {options("remarks").map((r) => (
                 <Badge
                   key={r}
                   variant="secondary"
