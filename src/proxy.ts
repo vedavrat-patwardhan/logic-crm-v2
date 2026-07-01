@@ -11,11 +11,13 @@ const PUBLIC_ROUTES = ["/login", "/register", "/unauthorized"];
 // Route prefixes that require an elevated role (everything except plain USER).
 const ADMIN_AREA = [
   "/customers",
-  "/users",
   "/reports",
   "/analytics",
   "/sales",
 ];
+
+// Route prefixes reserved for the ADMIN role only.
+const ADMIN_ONLY = ["/users", "/settings"];
 
 export default auth((req) => {
   const { nextUrl } = req;
@@ -50,11 +52,19 @@ export default auth((req) => {
     return NextResponse.redirect(url);
   }
 
-  // Role gating for admin-area sections.
+  // Role gating for admin-area sections (blocks plain USER).
   const inAdminArea = ADMIN_AREA.some(
     (p) => path === p || path.startsWith(`${p}/`),
   );
   if (inAdminArea && role === "USER") {
+    return NextResponse.redirect(new URL("/unauthorized", nextUrl));
+  }
+
+  // Admin-only sections (blocks everyone except ADMIN).
+  const inAdminOnly = ADMIN_ONLY.some(
+    (p) => path === p || path.startsWith(`${p}/`),
+  );
+  if (inAdminOnly && role !== "ADMIN") {
     return NextResponse.redirect(new URL("/unauthorized", nextUrl));
   }
 

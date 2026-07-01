@@ -15,7 +15,7 @@ import { toast } from "sonner";
 
 import { trpc } from "@/trpc/react";
 import { useDebouncedValue } from "@/hooks/use-debounced-value";
-import { can } from "@/lib/permissions";
+import { usePermissions } from "@/hooks/use-permissions";
 import { formatDate } from "@/lib/format";
 import { PageHeader } from "@/components/app/page-header";
 import { EmptyState } from "@/components/app/empty-state";
@@ -99,11 +99,12 @@ export function CallsView({
   const isElevated = role !== "USER";
   const noun = kind === "sales" ? "Lead" : "Call";
 
-  const canCreate = can(role, "calls.create");
-  const canEdit = can(role, "calls.edit");
-  const canDelete = can(role, "calls.delete");
-  const canShowClosed = can(role, "calls.showClosed");
-  const canDateFilter = can(role, "calls.dateFilter");
+  const check = usePermissions(role);
+  const canCreate = check("calls.create");
+  const canEdit = check("calls.edit");
+  const canDelete = check("calls.delete");
+  const canShowClosed = check("calls.showClosed");
+  const canDateFilter = check("calls.dateFilter");
 
   function openNew() {
     setEditId(null);

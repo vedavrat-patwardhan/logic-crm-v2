@@ -8,6 +8,7 @@ import {
   FileBarChart,
   Users,
   UserCircle,
+  Settings,
   type LucideIcon,
 } from "lucide-react";
 
@@ -63,6 +64,7 @@ export const NAV_SECTIONS: NavSection[] = [
         roles: ELEVATED,
       },
       { title: "Users", href: "/users", icon: Users, roles: ADMIN },
+      { title: "Settings", href: "/settings", icon: Settings, roles: ADMIN },
     ],
   },
   {

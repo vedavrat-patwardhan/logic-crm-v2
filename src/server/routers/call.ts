@@ -3,10 +3,17 @@ import { TRPCError } from "@trpc/server";
 import type { Prisma, Role } from "@prisma/client";
 import { router, protectedProcedure } from "../trpc";
 import { nextTicketNo } from "../lib/sequences";
+import { getStoredMatrix } from "../lib/settings";
 import { can, type PermissionKey } from "../../lib/permissions";
+import type { PrismaClient } from "@prisma/client";
 
-function assertCan(role: Role, key: PermissionKey) {
-  if (!can(role, key)) {
+async function assertCan(
+  prisma: PrismaClient,
+  role: Role,
+  key: PermissionKey,
+) {
+  const matrix = await getStoredMatrix(prisma);
+  if (!can(role, key, matrix)) {
     throw new TRPCError({
       code: "FORBIDDEN",
       message: "You don't have permission for this action.",
@@ -178,7 +185,7 @@ export const callRouter = router({
   update: protectedProcedure
     .input(z.object({ id: z.string(), ...callInput }))
     .mutation(async ({ ctx, input }) => {
-      assertCan(ctx.user.role, "calls.edit");
+      await assertCan(ctx.prisma, ctx.user.role, "calls.edit");
       const { id, ...rest } = input;
       await ctx.prisma.call.update({
         where: { id },
@@ -239,7 +246,7 @@ export const callRouter = router({
   remove: protectedProcedure
     .input(z.object({ id: z.string() }))
     .mutation(async ({ ctx, input }) => {
-      assertCan(ctx.user.role, "calls.delete");
+      await assertCan(ctx.prisma, ctx.user.role, "calls.delete");
       await ctx.prisma.call.delete({ where: { id: input.id } });
       return { ok: true };
     }),

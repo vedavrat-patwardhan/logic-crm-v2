@@ -6,6 +6,7 @@ import { callRouter } from "./call";
 import { jobcardRouter } from "./jobcard";
 import { reportRouter } from "./report";
 import { analyticsRouter } from "./analytics";
+import { settingsRouter } from "./settings";
 
 export const appRouter = router({
   system: systemRouter,
@@ -15,6 +16,7 @@ export const appRouter = router({
   jobcard: jobcardRouter,
   report: reportRouter,
   analytics: analyticsRouter,
+  settings: settingsRouter,
 });
 
 export type AppRouter = typeof appRouter;
