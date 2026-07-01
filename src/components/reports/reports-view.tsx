@@ -3,6 +3,7 @@
 import * as React from "react";
 import { Download, FileBarChart, Loader2, Play } from "lucide-react";
 import { toast } from "sonner";
+import { format, parseISO } from "date-fns";
 
 import { trpc } from "@/trpc/react";
 import { formatDate } from "@/lib/format";
@@ -10,8 +11,8 @@ import { downloadCsv } from "@/lib/csv";
 import { PageHeader } from "@/components/app/page-header";
 import { EmptyState } from "@/components/app/empty-state";
 import { Combobox } from "@/components/data/combobox";
+import { DatePicker } from "@/components/data/date-picker";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import {
   Card,
@@ -55,22 +56,20 @@ function DateRangeFields({
     <>
       <div className="space-y-1.5">
         <Label htmlFor={`${idPrefix}-start`}>Start date</Label>
-        <Input
+        <DatePicker
           id={`${idPrefix}-start`}
-          type="date"
-          value={start}
-          max={end || undefined}
-          onChange={(e) => onStart(e.target.value)}
+          value={start ? parseISO(start) : null}
+          onChange={(d) => onStart(d ? format(d, "yyyy-MM-dd") : "")}
+          placeholder="Start date"
         />
       </div>
       <div className="space-y-1.5">
         <Label htmlFor={`${idPrefix}-end`}>End date</Label>
-        <Input
+        <DatePicker
           id={`${idPrefix}-end`}
-          type="date"
-          value={end}
-          min={start || undefined}
-          onChange={(e) => onEnd(e.target.value)}
+          value={end ? parseISO(end) : null}
+          onChange={(d) => onEnd(d ? format(d, "yyyy-MM-dd") : "")}
+          placeholder="End date"
         />
       </div>
     </>

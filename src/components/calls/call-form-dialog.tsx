@@ -6,6 +6,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { Loader2 } from "lucide-react";
 import { toast } from "sonner";
+import { format, parseISO } from "date-fns";
 import type { Role } from "@prisma/client";
 
 import { trpc } from "@/trpc/react";
@@ -14,6 +15,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Combobox } from "@/components/data/combobox";
+import { DatePicker } from "@/components/data/date-picker";
 import {
   Dialog,
   DialogContent,
@@ -381,11 +383,15 @@ export function CallFormDialog({
               control={form.control}
               name="startDate"
               render={({ field }) => (
-                <FormItem>
+                <FormItem className="flex flex-col">
                   <FormLabel>Start date</FormLabel>
-                  <FormControl>
-                    <Input type="date" {...field} />
-                  </FormControl>
+                  <DatePicker
+                    value={field.value ? parseISO(field.value) : null}
+                    onChange={(d) =>
+                      field.onChange(d ? format(d, "yyyy-MM-dd") : "")
+                    }
+                    placeholder="Select start date"
+                  />
                   <FormMessage />
                 </FormItem>
               )}
@@ -394,11 +400,15 @@ export function CallFormDialog({
               control={form.control}
               name="expClosure"
               render={({ field }) => (
-                <FormItem>
+                <FormItem className="flex flex-col">
                   <FormLabel>Expected closure</FormLabel>
-                  <FormControl>
-                    <Input type="date" {...field} />
-                  </FormControl>
+                  <DatePicker
+                    value={field.value ? parseISO(field.value) : null}
+                    onChange={(d) =>
+                      field.onChange(d ? format(d, "yyyy-MM-dd") : "")
+                    }
+                    placeholder="Select expected closure"
+                  />
                   <FormMessage />
                 </FormItem>
               )}
