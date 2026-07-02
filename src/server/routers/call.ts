@@ -177,6 +177,15 @@ export const callRouter = router({
       const assignedEmployeeId =
         ctx.user.role === "USER" ? ctx.user.id : input.assignedEmployeeId;
 
+      // Calls assigned to reception/desk staff aren't picked up by a field
+      // engineer yet, so they start unallocated instead of in-progress.
+      const assignee = await ctx.prisma.user.findUnique({
+        where: { id: assignedEmployeeId },
+        select: { role: true },
+      });
+      const status =
+        assignee?.role === "RECEPTION" ? "UNALLOCATED" : "IN_PROGRESS";
+
       await ctx.prisma.call.create({
         data: {
           ticketNo,
@@ -190,7 +199,7 @@ export const callRouter = router({
           pincode: input.pincode,
           assignedEmployeeId,
           registeredById: ctx.user.id,
-          status: "IN_PROGRESS",
+          status,
           problemType: input.problemType,
           callDescription: input.callDescription || null,
           startDate: input.startDate,

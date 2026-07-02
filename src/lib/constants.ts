@@ -1,10 +1,11 @@
 import type { Role, CallStatus, JobStatus } from "@prisma/client";
 
-export const ROLES: Role[] = ["ADMIN", "SALES_ADMIN", "USER"];
+export const ROLES: Role[] = ["ADMIN", "SALES_ADMIN", "RECEPTION", "USER"];
 
 export const ROLE_LABELS: Record<Role, string> = {
   ADMIN: "Admin",
   SALES_ADMIN: "Sales Admin",
+  RECEPTION: "Reception",
   USER: "Engineer",
 };
 

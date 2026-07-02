@@ -52,6 +52,15 @@ export const DEFAULT_PERMISSIONS: Record<
     "calls.showClosed": true,
     "calls.dateFilter": true,
   },
+  // Reception / desk staff: admin-like on calls, but never delete.
+  RECEPTION: {
+    "calls.create": true,
+    "calls.edit": true,
+    "calls.delete": false,
+    "calls.addAction": true,
+    "calls.showClosed": true,
+    "calls.dateFilter": true,
+  },
   USER: {
     "calls.create": true,
     "calls.edit": false,

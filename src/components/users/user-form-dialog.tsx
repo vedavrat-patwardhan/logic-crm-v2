@@ -45,7 +45,7 @@ const schema = z.object({
   password: z.string(),
   dob: z.string().optional(),
   mobile: z.string().optional(),
-  role: z.enum(["ADMIN", "SALES_ADMIN", "USER"]),
+  role: z.enum(["ADMIN", "SALES_ADMIN", "RECEPTION", "USER"]),
 });
 type Values = z.infer<typeof schema>;
 

@@ -7,7 +7,7 @@ import {
   adminProcedure,
 } from "../trpc";
 
-const roleEnum = z.enum(["ADMIN", "SALES_ADMIN", "USER"]);
+const roleEnum = z.enum(["ADMIN", "SALES_ADMIN", "RECEPTION", "USER"]);
 
 const baseUser = {
   name: z.string().min(1, "Name is required"),

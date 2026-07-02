@@ -53,6 +53,6 @@ const enforceRole = (roles: Role[]) =>
 
 export const protectedProcedure = t.procedure.use(enforceAuth);
 export const elevatedProcedure = t.procedure.use(
-  enforceRole(["ADMIN", "SALES_ADMIN"]),
+  enforceRole(["ADMIN", "SALES_ADMIN", "RECEPTION"]),
 );
 export const adminProcedure = t.procedure.use(enforceRole(["ADMIN"]));

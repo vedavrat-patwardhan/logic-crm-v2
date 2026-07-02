@@ -24,8 +24,8 @@ export type NavSection = {
   items: NavItem[];
 };
 
-const ALL: Role[] = ["ADMIN", "SALES_ADMIN", "USER"];
-const ELEVATED: Role[] = ["ADMIN", "SALES_ADMIN"];
+const ALL: Role[] = ["ADMIN", "SALES_ADMIN", "RECEPTION", "USER"];
+const ELEVATED: Role[] = ["ADMIN", "SALES_ADMIN", "RECEPTION"];
 const ADMIN: Role[] = ["ADMIN"];
 
 export const NAV_SECTIONS: NavSection[] = [
