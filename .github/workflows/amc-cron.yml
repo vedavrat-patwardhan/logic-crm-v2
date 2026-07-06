@@ -1,0 +1,28 @@
+name: AMC daily calls
+
+# Generates the day's due AMC service calls by calling the app's secured
+# endpoint. Cron is in UTC; 19:30 UTC == 01:00 IST.
+on:
+  schedule:
+    - cron: "30 19 * * *"
+  workflow_dispatch: {} # allow manual runs from the Actions tab
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger AMC generation
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          AMC_ENDPOINT: ${{ vars.AMC_ENDPOINT || 'https://logic-crm-v2.netlify.app/api/cron/amc' }}
+        run: |
+          echo "Calling $AMC_ENDPOINT"
+          response=$(curl -fsS -w "\n%{http_code}" -X POST "$AMC_ENDPOINT" \
+            -H "Authorization: Bearer $CRON_SECRET")
+          body=$(echo "$response" | head -n -1)
+          code=$(echo "$response" | tail -n 1)
+          echo "HTTP $code — $body"
+          if [ "$code" != "200" ]; then
+            echo "AMC trigger failed"
+            exit 1
+          fi

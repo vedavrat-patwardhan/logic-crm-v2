@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { TRPCError } from "@trpc/server";
 import { router, protectedProcedure, elevatedProcedure } from "../trpc";
-import { nextTicketNo } from "../lib/sequences";
+import { generateDueAmcCalls } from "../lib/amc";
 
 const contactSchema = z.object({
   name: z.string().min(1),
@@ -130,62 +130,8 @@ export const companyRouter = router({
       return { ok: true };
     }),
 
-  /** Generate today's due AMC service calls. */
-  generateAmcCalls: elevatedProcedure.mutation(async ({ ctx }) => {
-    const nowIST = new Date(
-      new Date().toLocaleString("en-US", { timeZone: "Asia/Kolkata" }),
-    );
-    const dayOfWeek = nowIST.getDay();
-    const weekOfMonth = Math.ceil(nowIST.getDate() / 7);
-    const monthOfQuarter = (nowIST.getMonth() % 3) + 1;
-
-    const companies = await ctx.prisma.company.findMany({
-      where: { hasAmc: true },
-    });
-
-    const tomorrow = new Date();
-    tomorrow.setDate(tomorrow.getDate() + 1);
-
-    let created = 0;
-    for (const company of companies) {
-      for (const amc of company.amc) {
-        const matches =
-          amc.frequency === "DAILY" ||
-          (amc.frequency === "WEEKLY" && amc.dayOfWeek === dayOfWeek) ||
-          (amc.frequency === "MONTHLY" &&
-            amc.weekOfMonth === weekOfMonth &&
-            amc.dayOfWeek === dayOfWeek) ||
-          (amc.frequency === "QUARTERLY" &&
-            amc.monthOfQuarter === monthOfQuarter &&
-            amc.weekOfMonth === weekOfMonth &&
-            amc.dayOfWeek === dayOfWeek);
-
-        if (!matches) continue;
-
-        const ticketNo = await nextTicketNo(ctx.prisma);
-        await ctx.prisma.call.create({
-          data: {
-            ticketNo,
-            companyId: company.id,
-            contactPerson: company.contactPerson[0]?.name ?? null,
-            email: company.contactPerson[0]?.email ?? null,
-            mobile: company.contactPerson[0]?.mobile ?? [],
-            streetAddress: company.streetAddress,
-            city: company.city,
-            state: company.state,
-            pincode: company.pincode,
-            assignedEmployeeId: amc.employeeId ?? ctx.user.id,
-            registeredById: ctx.user.id,
-            status: "IN_PROGRESS",
-            problemType: "AMC Call",
-            startDate: new Date(),
-            expClosure: tomorrow,
-            isSales: false,
-          },
-        });
-        created += 1;
-      }
-    }
-    return { created };
-  }),
+  /** Generate today's due AMC service calls (idempotent — safe to re-run). */
+  generateAmcCalls: elevatedProcedure.mutation(({ ctx }) =>
+    generateDueAmcCalls(ctx.prisma, { actorId: ctx.user.id }),
+  ),
 });
