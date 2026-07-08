@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { Providers } from "@/components/providers";
+import { site } from "@/lib/site";
 
 const sans = Plus_Jakarta_Sans({
   variable: "--font-sans",
@@ -16,13 +17,41 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(site.url),
   title: {
-    default: "Logic CRM",
-    template: "%s · Logic CRM",
+    default: `${site.name} — ${site.company}`,
+    template: `%s · ${site.name}`,
   },
-  description:
-    "Logic CRM — service calls, customers, job cards, sales and analytics in one place.",
-  applicationName: "Logic CRM",
+  description: site.description,
+  applicationName: site.name,
+  authors: [{ name: site.company }],
+  creator: site.company,
+  keywords: [
+    "Logic Systems CRM",
+    "service call management",
+    "AMC scheduling",
+    "job cards",
+    "IT service operations Nashik",
+  ],
+  openGraph: {
+    type: "website",
+    locale: site.locale,
+    url: site.url,
+    siteName: site.name,
+    title: `${site.name} — ${site.tagline}`,
+    description: site.description,
+  },
+  twitter: {
+    card: "summary",
+    title: `${site.name} — ${site.tagline}`,
+    description: site.description,
+  },
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: { index: false, follow: false },
+  },
+  alternates: { canonical: site.url },
 };
 
 export const viewport: Viewport = {

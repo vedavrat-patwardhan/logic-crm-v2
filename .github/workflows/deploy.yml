@@ -25,7 +25,7 @@ jobs:
             AUTH_SECRET=${{ secrets.AUTH_SECRET }}
             AUTH_TRUST_HOST=true
             CRON_SECRET=${{ secrets.CRON_SECRET }}
-            NEXT_PUBLIC_APP_URL=${{ vars.NEXT_PUBLIC_APP_URL }}
+            NEXT_PUBLIC_APP_URL=${{ vars.NEXT_PUBLIC_APP_URL || 'https://crm.logicnsk.com' }}
             NODE_ENV=production
             PORT=3001
             ENVEOF

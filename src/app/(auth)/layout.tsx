@@ -1,5 +1,18 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Logo } from "@/components/brand/logo";
+import { site } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title: "Sign in",
+  description: `Sign in to ${site.name} — ${site.tagline}`,
+  alternates: { canonical: `${site.url}/login` },
+  openGraph: {
+    title: `Sign in · ${site.name}`,
+    description: site.description,
+    url: `${site.url}/login`,
+  },
+};
 
 export default function AuthLayout({
   children,

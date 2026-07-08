@@ -12,31 +12,23 @@ create duplicates.
 | Generation logic | [`src/server/lib/amc.ts`](../src/server/lib/amc.ts) (`generateDueAmcCalls`) |
 | Secured endpoint | `POST /api/cron/amc` — [`src/app/api/cron/amc/route.ts`](../src/app/api/cron/amc/route.ts) |
 | Manual button | Customers page → "Add AMC calls" (same logic, still idempotent) |
-| Scheduler (interim) | GitHub Actions — [`.github/workflows/amc-cron.yml`](../.github/workflows/amc-cron.yml) |
+| Scheduler | Server crontab on Hetzner (01:00 IST / 19:30 UTC) |
 
 The endpoint requires `Authorization: Bearer $CRON_SECRET`. Requests without it
 get `401`.
 
 ## Required setup
 
-1. **`CRON_SECRET`** — a shared secret. It already exists in local `.env`.
-   Set the **same value** in:
-   - Netlify: Site settings → Environment variables → `CRON_SECRET`
-   - GitHub: Repo → Settings → Secrets and variables → Actions → new secret `CRON_SECRET`
-2. (Optional) GitHub repo variable **`AMC_ENDPOINT`** if the URL isn't
-   `https://logic-crm-v2.netlify.app/api/cron/amc`.
+1. **`CRON_SECRET`** — set in production `.env` on the server and in GitHub
+   Actions secret `CRON_SECRET` for deploys.
 
-The GitHub Action runs daily at `30 19 * * *` UTC = **01:00 IST**, and can also
-be run on demand from the Actions tab (workflow_dispatch).
+## Hetzner server cron
 
-## Moving to the Hetzner server
-
-When the app moves off Netlify, drop the GitHub Action and use a plain crontab
-on the box. Add to `crontab -e` (server clock in UTC):
+On the server (`crontab -e` as `logicsys`, clock in UTC):
 
 ```cron
 # 01:00 IST (19:30 UTC) — generate due AMC calls
-30 19 * * * curl -fsS -X POST https://YOUR_DOMAIN/api/cron/amc -H "Authorization: Bearer YOUR_CRON_SECRET" >> /var/log/amc-cron.log 2>&1
+30 19 * * * curl -fsS -X POST https://crm.logicnsk.com/api/cron/amc -H "Authorization: Bearer YOUR_CRON_SECRET" >> /var/log/logicsys/amc-cron.log 2>&1
 ```
 
 If the server clock is set to IST instead, use `0 1 * * *`.
