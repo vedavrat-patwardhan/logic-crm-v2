@@ -8,9 +8,25 @@ export const metadata: Metadata = {
   description: `Sign in to ${site.name} — ${site.tagline}`,
   alternates: { canonical: `${site.url}/login` },
   openGraph: {
-    title: `Sign in · ${site.name}`,
+    type: "website",
+    title: `${site.name} — ${site.tagline}`,
     description: site.description,
     url: `${site.url}/login`,
+    siteName: site.name,
+    images: [
+      {
+        url: site.ogImage,
+        width: 1200,
+        height: 630,
+        alt: `${site.name} — ${site.company}`,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${site.name} — ${site.tagline}`,
+    description: site.description,
+    images: [site.ogImage],
   },
 };
 

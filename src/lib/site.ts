@@ -8,4 +8,5 @@ export const site = {
   tagline: "Service operations, unified.",
   locale: "en_IN",
   email: "enquiry@logicsys.in",
+  ogImage: "/opengraph-image",
 } as const;
