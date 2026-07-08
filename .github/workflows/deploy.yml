@@ -13,17 +13,16 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
-          install -d -m 700 ~/.ssh
-          printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
-          chmod 600 ~/.ssh/deploy_key
-          ssh-keygen -y -f ~/.ssh/deploy_key > /dev/null
+          printf '%s\n' "$SSH_PRIVATE_KEY" > deploy_key
+          chmod 600 deploy_key
+          ssh-keygen -y -f deploy_key > /dev/null
 
       - name: Deploy via SSH
         uses: appleboy/ssh-action@v1.2.0
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
-          key_path: ~/.ssh/deploy_key
+          key_path: deploy_key
           port: 22
           script_stop: true
           script: |
