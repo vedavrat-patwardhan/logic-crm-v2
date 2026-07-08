@@ -1,0 +1,40 @@
+name: Deploy to Hetzner
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script_stop: true
+          script: |
+            set -euo pipefail
+            cd /var/www/logic-crm
+
+            cat > .env << ENVEOF
+            DATABASE_URL=${{ secrets.DATABASE_URL }}
+            AUTH_SECRET=${{ secrets.AUTH_SECRET }}
+            AUTH_TRUST_HOST=true
+            CRON_SECRET=${{ secrets.CRON_SECRET }}
+            NEXT_PUBLIC_APP_URL=${{ vars.NEXT_PUBLIC_APP_URL }}
+            NODE_ENV=production
+            PORT=3001
+            ENVEOF
+
+            git fetch origin main
+            git reset --hard origin/main
+            pnpm config set strict-dep-builds false
+            pnpm install --frozen-lockfile
+            pnpm exec next build
+            sudo systemctl restart logic-crm
+            sudo systemctl is-active logic-crm
+            echo "logic-crm deployed successfully"

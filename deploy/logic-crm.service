@@ -1,0 +1,19 @@
+[Unit]
+Description=Logic CRM (Next.js)
+After=network.target
+
+[Service]
+Type=simple
+User=logicsys
+WorkingDirectory=/var/www/logic-crm
+EnvironmentFile=/var/www/logic-crm/.env
+Environment=PORT=3001
+Environment=NODE_ENV=production
+ExecStart=/usr/bin/pnpm start
+Restart=on-failure
+RestartSec=10
+StandardOutput=append:/var/log/logicsys/logic-crm.log
+StandardError=append:/var/log/logicsys/logic-crm.log
+
+[Install]
+WantedBy=multi-user.target
