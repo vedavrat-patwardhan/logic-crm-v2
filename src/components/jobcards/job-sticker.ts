@@ -37,25 +37,26 @@ export function printJobSticker(job: JobStickerData): void {
 
   const mobile = job.mobileNo?.trim();
   lines.push(
-    `<div style="font-size:13px;font-weight:700">${esc(
+    `<div style="font-size:13px;font-weight:700;white-space:nowrap;overflow:hidden">${esc(
       job.customerName,
     )}${mobile ? ` <span style="font-size:12px;font-weight:400">${esc(mobile)}</span>` : ""}</div>`,
   );
 
-  if (job.material?.trim()) {
-    lines.push(`<div style="font-size:12px">${esc(job.material)}</div>`);
-  }
-
+  // Material + accessories share one clipped line so the sticker never
+  // grows beyond the label height.
   const accessories = (job.accessories ?? []).filter(Boolean);
-  if (accessories.length) {
+  const details = [job.material?.trim(), accessories.join(" / ")]
+    .filter(Boolean)
+    .join(" — ");
+  if (details) {
     lines.push(
-      `<div style="font-size:12px">${esc(accessories.join(" / "))}</div>`,
+      `<div style="font-size:11px;white-space:nowrap;overflow:hidden">${esc(details)}</div>`,
     );
   }
 
   printHtml({
     title: job.jobNo,
-    body: `<div style="padding:8px;width:280px">${lines.join("")}</div>`,
-    styles: "@page{size:auto;margin:6mm}",
+    body: `<div style="padding:4px;width:280px;overflow:hidden">${lines.join("")}</div>`,
+    styles: "@page{size:auto;margin:3mm}",
   });
 }

@@ -94,6 +94,7 @@ export function CallFormDialog({
     { name: string; email?: string | null; mobile: string[] }[]
   >([]);
   const [contactOpen, setContactOpen] = React.useState(false);
+  const contactInputRef = React.useRef<HTMLInputElement | null>(null);
 
   const form = useForm<Values>({
     resolver: zodResolver(schema),
@@ -306,11 +307,18 @@ export function CallFormDialog({
                           placeholder="Name"
                           autoComplete="off"
                           {...field}
+                          ref={(el) => {
+                            field.ref(el);
+                            contactInputRef.current = el;
+                          }}
                           onChange={(e) => {
                             field.onChange(e);
                             if (contacts.length > 0) setContactOpen(true);
                           }}
                           onFocus={() => {
+                            if (contacts.length > 0) setContactOpen(true);
+                          }}
+                          onClick={() => {
                             if (contacts.length > 0) setContactOpen(true);
                           }}
                         />
@@ -321,6 +329,16 @@ export function CallFormDialog({
                         align="start"
                         className="w-[--radix-popover-trigger-width] p-1"
                         onOpenAutoFocus={(e) => e.preventDefault()}
+                        onInteractOutside={(e) => {
+                          // Clicking the anchor input must not dismiss the
+                          // popover, or it flickers closed on focus click.
+                          if (
+                            e.target instanceof Node &&
+                            contactInputRef.current?.contains(e.target)
+                          ) {
+                            e.preventDefault();
+                          }
+                        }}
                       >
                         <div className="max-h-56 overflow-y-auto">
                           {contactSuggestions.map((c, i) => (
