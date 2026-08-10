@@ -84,7 +84,12 @@ export function UserMenu({
         <DropdownMenuSeparator />
         <DropdownMenuItem
           variant="destructive"
-          onSelect={() => signOut({ callbackUrl: "/login" })}
+          onSelect={async () => {
+            // Redirect ourselves — the server-computed URL is wrong behind
+            // the reverse proxy (points at localhost).
+            await signOut({ redirect: false });
+            window.location.assign("/login");
+          }}
         >
           <LogOut className="size-4" />
           Sign out
