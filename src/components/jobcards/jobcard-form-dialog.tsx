@@ -43,6 +43,7 @@ import {
   PopoverAnchor,
   PopoverContent,
 } from "@/components/ui/popover";
+import type { JobStickerData } from "./job-sticker";
 
 const STATUSES = Object.keys(JOB_STATUS_LABELS) as Array<
   keyof typeof JOB_STATUS_LABELS
@@ -94,11 +95,7 @@ export function JobCardFormDialog({
   open: boolean;
   onOpenChange: (o: boolean) => void;
   editId: string | null;
-  onCreated?: (job: {
-    jobNo: string;
-    date: Date | string;
-    customerName: string;
-  }) => void;
+  onCreated?: (job: JobStickerData) => void;
 }) {
   const utils = trpc.useUtils();
   const isEdit = !!editId;
@@ -238,6 +235,9 @@ export function JobCardFormDialog({
           jobNo: res.jobNo,
           date: res.date,
           customerName: res.customerName,
+          mobileNo: res.mobileNo,
+          material: res.material,
+          accessories: res.accessories,
         });
       }
       await utils.jobcard.list.invalidate();

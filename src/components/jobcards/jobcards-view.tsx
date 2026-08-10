@@ -15,7 +15,6 @@ import { trpc } from "@/trpc/react";
 import { useDebouncedValue } from "@/hooks/use-debounced-value";
 import { formatDate } from "@/lib/format";
 import { downloadCsv } from "@/lib/csv";
-import { printHtml } from "@/lib/print";
 import { PageHeader } from "@/components/app/page-header";
 import { EmptyState } from "@/components/app/empty-state";
 import { ListToolbar } from "@/components/data/list-toolbar";
@@ -40,24 +39,9 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { JobCardFormDialog } from "./jobcard-form-dialog";
 import { JobCardDetailDialog } from "./jobcard-detail-dialog";
+import { printJobSticker, type JobStickerData } from "./job-sticker";
 
 const COLS = 7;
-
-function escHtml(value?: string | null): string {
-  return String(value ?? "").replace(
-    /[&<>"']/g,
-    (c) =>
-      ((
-        {
-          "&": "&amp;",
-          "<": "&lt;",
-          ">": "&gt;",
-          '"': "&quot;",
-          "'": "&#39;",
-        } as Record<string, string>
-      )[c] ?? c),
-  );
-}
 
 export function JobCardsView() {
   const utils = trpc.useUtils();
@@ -70,11 +54,9 @@ export function JobCardsView() {
   const [editId, setEditId] = React.useState<string | null>(null);
   const [detailId, setDetailId] = React.useState<string | null>(null);
   const [exporting, setExporting] = React.useState(false);
-  const [printOffer, setPrintOffer] = React.useState<{
-    jobNo: string;
-    date: Date | string;
-    customerName: string;
-  } | null>(null);
+  const [printOffer, setPrintOffer] = React.useState<JobStickerData | null>(
+    null,
+  );
 
   React.useEffect(() => setPage(1), [debounced, pageSize]);
 
@@ -131,24 +113,6 @@ export function JobCardsView() {
     } finally {
       setExporting(false);
     }
-  }
-
-  function printSticker(job: {
-    jobNo: string;
-    date: Date | string;
-    customerName: string;
-  }) {
-    printHtml({
-      title: job.jobNo,
-      body: `<div style="padding:8px;width:280px"><div style="font-size:20px;font-weight:800">${escHtml(
-        job.jobNo,
-      )}</div><div style="font-size:12px">${escHtml(
-        formatDate(job.date),
-      )}</div><div style="font-size:12px">${escHtml(
-        job.customerName,
-      )}</div></div>`,
-      styles: "@page{size:auto;margin:6mm}",
-    });
   }
 
   const items = list.data?.items ?? [];
@@ -298,7 +262,7 @@ export function JobCardsView() {
         confirmLabel="Print sticker"
         cancelLabel="Not now"
         onConfirm={() => {
-          if (printOffer) printSticker(printOffer);
+          if (printOffer) printJobSticker(printOffer);
           setPrintOffer(null);
         }}
       />

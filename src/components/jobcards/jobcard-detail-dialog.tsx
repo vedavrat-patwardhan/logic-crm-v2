@@ -20,6 +20,7 @@ import {
 import { trpc } from "@/trpc/react";
 import { formatDate, formatPhone } from "@/lib/format";
 import { printHtml } from "@/lib/print";
+import { printJobSticker } from "./job-sticker";
 import { JobStatusBadge } from "@/components/calls/status-badge";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -84,16 +85,13 @@ export function JobCardDetailDialog({
 
   function printSticker() {
     if (!data) return;
-    printHtml({
-      title: data.jobNo,
-      body: `<div style="padding:8px;width:280px"><div style="font-size:20px;font-weight:800">${esc(
-        data.jobNo,
-      )}</div><div style="font-size:12px">${esc(
-        formatDate(data.date),
-      )}</div><div style="font-size:12px">${esc(
-        data.customerName,
-      )}</div></div>`,
-      styles: "@page{size:auto;margin:6mm}",
+    printJobSticker({
+      jobNo: data.jobNo,
+      date: data.date,
+      customerName: data.customerName,
+      mobileNo: data.mobileNo,
+      material: data.material,
+      accessories: data.accessories,
     });
   }
 
