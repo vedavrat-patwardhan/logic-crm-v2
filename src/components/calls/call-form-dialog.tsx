@@ -4,12 +4,13 @@ import * as React from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { Loader2 } from "lucide-react";
+import { Loader2, Check } from "lucide-react";
 import { toast } from "sonner";
 import { format, parseISO } from "date-fns";
 import type { Role } from "@prisma/client";
 
 import { trpc } from "@/trpc/react";
+import { cn } from "@/lib/utils";
 import { useAppConfig } from "@/hooks/use-app-config";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -32,6 +33,11 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
+import {
+  Popover,
+  PopoverAnchor,
+  PopoverContent,
+} from "@/components/ui/popover";
 
 const schema = z.object({
   companyId: z.string().nullable().optional(),
@@ -84,6 +90,11 @@ export function CallFormDialog({
     { enabled: open && isEdit },
   );
 
+  const [contacts, setContacts] = React.useState<
+    { name: string; email?: string | null; mobile: string[] }[]
+  >([]);
+  const [contactOpen, setContactOpen] = React.useState(false);
+
   const form = useForm<Values>({
     resolver: zodResolver(schema),
     defaultValues: {
@@ -122,6 +133,15 @@ export function CallFormDialog({
         startDate: toDateInput(c.startDate),
         expClosure: toDateInput(c.expClosure),
       });
+      if (c.companyId) {
+        void utils.company.byId.fetch({ id: c.companyId }).then((company) => {
+          if (company) {
+            setContacts(company.contactPerson ?? []);
+          }
+        });
+      } else {
+        setContacts([]);
+      }
     }
     if (open && !isEdit) {
       form.reset({
@@ -139,6 +159,7 @@ export function CallFormDialog({
         startDate: toDateInput(new Date()),
         expClosure: toDateInput(new Date(Date.now() + 86400000)),
       });
+      setContacts([]);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open, isEdit, existing.data, initialAssignee]);
@@ -146,13 +167,17 @@ export function CallFormDialog({
   // Auto-fill address/contact from selected company.
   async function onCompanyChange(companyId: string | null) {
     form.setValue("companyId", companyId);
-    if (!companyId) return;
+    if (!companyId) {
+      setContacts([]);
+      return;
+    }
     const company = await utils.company.byId.fetch({ id: companyId });
     if (company) {
       form.setValue("streetAddress", company.streetAddress);
       form.setValue("city", company.city);
       form.setValue("state", company.state);
       form.setValue("pincode", company.pincode);
+      setContacts(company.contactPerson ?? []);
       const first = company.contactPerson[0];
       if (first) {
         form.setValue("contactPerson", first.name);
@@ -160,6 +185,27 @@ export function CallFormDialog({
         form.setValue("mobile", (first.mobile ?? []).join(", "));
       }
     }
+  }
+
+  const contactPersonValue = form.watch("contactPerson");
+
+  const contactSuggestions = React.useMemo(() => {
+    const q = (contactPersonValue ?? "").toLowerCase().trim();
+    if (!q) return contacts;
+    const exactMatch = contacts.some((c) => c.name.toLowerCase() === q);
+    if (exactMatch) return contacts;
+    return contacts.filter((c) => c.name.toLowerCase().includes(q));
+  }, [contacts, contactPersonValue]);
+
+  function selectContact(c: {
+    name: string;
+    email?: string | null;
+    mobile: string[];
+  }) {
+    form.setValue("contactPerson", c.name, { shouldValidate: true });
+    form.setValue("email", c.email ?? "");
+    form.setValue("mobile", (c.mobile ?? []).join(", "));
+    setContactOpen(false);
   }
 
   const createMut = trpc.calls.create.useMutation();
@@ -253,9 +299,62 @@ export function CallFormDialog({
               render={({ field }) => (
                 <FormItem>
                   <FormLabel>Contact person</FormLabel>
-                  <FormControl>
-                    <Input placeholder="Name" {...field} />
-                  </FormControl>
+                  <Popover open={contactOpen} onOpenChange={setContactOpen}>
+                    <PopoverAnchor asChild>
+                      <FormControl>
+                        <Input
+                          placeholder="Name"
+                          autoComplete="off"
+                          {...field}
+                          onChange={(e) => {
+                            field.onChange(e);
+                            if (contacts.length > 0) setContactOpen(true);
+                          }}
+                          onFocus={() => {
+                            if (contacts.length > 0) setContactOpen(true);
+                          }}
+                        />
+                      </FormControl>
+                    </PopoverAnchor>
+                    {contactSuggestions.length > 0 ? (
+                      <PopoverContent
+                        align="start"
+                        className="w-[--radix-popover-trigger-width] p-1"
+                        onOpenAutoFocus={(e) => e.preventDefault()}
+                      >
+                        <div className="max-h-56 overflow-y-auto">
+                          {contactSuggestions.map((c, i) => (
+                            <button
+                              key={`${c.name}-${i}`}
+                              type="button"
+                              onClick={() => selectContact(c)}
+                              className={cn(
+                                "flex w-full items-center gap-2 rounded-md px-2 py-1.5 text-left text-sm hover:bg-accent",
+                              )}
+                            >
+                              <Check
+                                className={cn(
+                                  "size-4 shrink-0",
+                                  c.name === field.value
+                                    ? "opacity-100"
+                                    : "opacity-0",
+                                )}
+                              />
+                              <span className="truncate">
+                                {c.name}
+                                {c.mobile[0] ? (
+                                  <span className="text-muted-foreground">
+                                    {" · "}
+                                    {c.mobile[0]}
+                                  </span>
+                                ) : null}
+                              </span>
+                            </button>
+                          ))}
+                        </div>
+                      </PopoverContent>
+                    ) : null}
+                  </Popover>
                   <FormMessage />
                 </FormItem>
               )}
