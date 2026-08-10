@@ -235,9 +235,9 @@ export function JobCardFormDialog({
           jobNo: res.jobNo,
           date: res.date,
           customerName: res.customerName,
-          mobileNo: res.mobileNo,
           material: res.material,
           accessories: res.accessories,
+          problem: res.problem,
         });
       }
       await utils.jobcard.list.invalidate();

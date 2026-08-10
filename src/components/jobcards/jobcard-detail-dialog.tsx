@@ -89,9 +89,9 @@ export function JobCardDetailDialog({
       jobNo: data.jobNo,
       date: data.date,
       customerName: data.customerName,
-      mobileNo: data.mobileNo,
       material: data.material,
       accessories: data.accessories,
+      problem: data.problem,
     });
   }
 

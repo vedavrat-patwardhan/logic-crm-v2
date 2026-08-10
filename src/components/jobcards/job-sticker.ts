@@ -5,9 +5,9 @@ export type JobStickerData = {
   jobNo: string;
   date: Date | string;
   customerName: string;
-  mobileNo?: string | null;
   material?: string | null;
   accessories?: string[];
+  problem?: string | null;
 };
 
 function esc(value?: string | null): string {
@@ -35,11 +35,10 @@ export function printJobSticker(job: JobStickerData): void {
     )} | ${esc(formatDate(job.date))}</div>`,
   );
 
-  const mobile = job.mobileNo?.trim();
   lines.push(
     `<div style="font-size:13px;font-weight:700;white-space:nowrap;overflow:hidden">${esc(
       job.customerName,
-    )}${mobile ? ` <span style="font-size:12px;font-weight:400">${esc(mobile)}</span>` : ""}</div>`,
+    )}</div>`,
   );
 
   // Material + accessories share one clipped line so the sticker never
@@ -51,6 +50,12 @@ export function printJobSticker(job: JobStickerData): void {
   if (details) {
     lines.push(
       `<div style="font-size:11px;white-space:nowrap;overflow:hidden">${esc(details)}</div>`,
+    );
+  }
+
+  if (job.problem?.trim()) {
+    lines.push(
+      `<div style="font-size:11px;white-space:nowrap;overflow:hidden">${esc(job.problem)}</div>`,
     );
   }
 
