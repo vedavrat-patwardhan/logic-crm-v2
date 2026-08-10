@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { redirect } from "next/navigation";
-import { site } from "@/lib/site";
+import { site, ogImages } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: site.name,
@@ -12,14 +12,7 @@ export const metadata: Metadata = {
     description: site.description,
     url: site.url,
     siteName: site.name,
-    images: [
-      {
-        url: site.ogImage,
-        width: 2268,
-        height: 2123,
-        alt: `${site.name} — ${site.company}`,
-      },
-    ],
+    images: ogImages(),
   },
   twitter: {
     card: "summary_large_image",

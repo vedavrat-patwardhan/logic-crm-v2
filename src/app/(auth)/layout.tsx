@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Logo } from "@/components/brand/logo";
-import { site } from "@/lib/site";
+import { site, ogImages } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Sign in",
@@ -13,14 +13,7 @@ export const metadata: Metadata = {
     description: site.description,
     url: `${site.url}/login`,
     siteName: site.name,
-    images: [
-      {
-        url: site.ogImage,
-        width: 2268,
-        height: 2123,
-        alt: `${site.name} — ${site.company}`,
-      },
-    ],
+    images: ogImages(),
   },
   twitter: {
     card: "summary_large_image",
@@ -28,6 +21,7 @@ export const metadata: Metadata = {
     description: site.description,
     images: [site.ogImage],
   },
+  robots: { index: true, follow: false },
 };
 
 export default function AuthLayout({

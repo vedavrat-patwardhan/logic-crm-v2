@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { Providers } from "@/components/providers";
-import { site } from "@/lib/site";
+import { site, ogImages } from "@/lib/site";
 
 const sans = Plus_Jakarta_Sans({
   variable: "--font-sans",
@@ -40,25 +40,13 @@ export const metadata: Metadata = {
     siteName: site.name,
     title: `${site.name} — ${site.tagline}`,
     description: site.description,
-    images: [
-      {
-        url: site.ogImage,
-        width: 2268,
-        height: 2123,
-        alt: `${site.name} — ${site.company}`,
-      },
-    ],
+    images: ogImages(),
   },
   twitter: {
     card: "summary_large_image",
     title: `${site.name} — ${site.tagline}`,
     description: site.description,
     images: [site.ogImage],
-  },
-  robots: {
-    index: false,
-    follow: false,
-    googleBot: { index: false, follow: false },
   },
   alternates: { canonical: site.url },
 };
